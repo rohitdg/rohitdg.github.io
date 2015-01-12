@@ -1,0 +1,152 @@
+
+body {
+	background-color: #010101;
+}
+
+ .coverbox {
+
+	display: inline-block;
+	border: 2px solid orange;
+	height: 95%;
+	float: left; 
+	margin-top: 5px;
+
+	
+}
+
+.mainbox {
+	display: inline-block;
+	border: 2px solid #131313;
+	height: 300px;
+	float: left; 
+	margin-bottom: 250px; 
+	margin-top: 5px;
+
+}
+
+
+
+.innerbox {
+	border: 2px solid blue;
+	height: 200px;
+	float: left;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.innerbox1 {
+	margin-top: 5px;
+}
+
+.innerbox2 {
+	margin-top: 15px;
+}
+
+.innerbox3 {
+	margin-top: 25px;
+}
+
+.innerbox4 {
+	margin-top: 45px;
+}
+
+
+.innerbox5 {
+	border: 5px solid blue;
+}
+
+.innerbox6 {
+	border: 15px solid blue;
+}
+
+.innerbox7 {
+	border: 25px solid blue;
+}
+
+.innerbox8 {
+	padding: 5px;
+}
+
+.innerbox9 {
+	padding: 15px;
+}
+
+.innerbox10 {
+	padding: 25px;
+}
+
+.inner-inner-box1 {
+	border: 1px solid magenta;
+	width: 100%;
+	height: 100%;
+}
+
+
+.inside-text-1 {
+	margin-top: 5px;
+}
+
+.inside-text-2 {
+	margin-top: 15px;
+}
+
+.inside-text-3{
+	margin-top: 25px;
+}
+
+.inside-text-4{
+	margin-left: 5px;
+}
+
+.inside-text-5{
+	margin-left: 15px;
+}
+
+.inside-text-6{
+	margin-left: 25px;
+}
+
+.inside-text-7{
+	padding: 5px;
+}
+
+.inside-text-8{
+	padding: 15px;
+}
+
+.inside-text-9{
+	padding: 25px;
+}
+
+.inside-text-10{
+	border: 5px solid #fff;
+}
+
+.inside-text-11{
+	border: 15px solid #fff;
+}
+
+.inside-text-12{
+	border: 25px solid #fff;
+}
+
+
+.title {
+	text-align: center;
+	color: blue;
+	margin-top: 260px;
+}
+
+
+.inner-title{
+	color: #fff;
+}
+.inside-text {
+	color: #fff;
+	border: 1px solid #fff;
+	height: 100%;
+}
+
+h1, h4, h5 {
+	color: #c2c2c2;
+}
