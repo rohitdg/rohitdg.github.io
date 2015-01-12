@@ -1,0 +1,293 @@
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;/*
+  background-color: #ecf0f1;*/
+}
+
+.container-box {
+  width: 80%;
+  margin: auto;
+}
+
+
+/*Header and Title */
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-title {
+  font-size: 50px;
+  font-family: Lato;
+  font-weight: 300;
+}
+
+.task-entry-box {
+  height: 50px;
+  font-size: 18px;
+  font-family: Lato, Open-sans;
+  font-weight: 400;
+  width: 100%;
+  margin: auto;
+  background: none;
+  /*border-color: #7b7b7b;*/
+  border:none;
+  border-bottom: 1px solid #000;
+  box-shadow: none;
+  border-radius: 0px;
+  margin-left: -10px;
+  padding-left: 0px;
+
+
+}
+
+.task-entry-box:focus {
+  border-color: none;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #000;
+  box-shadow: 0px 1px 0px #000;
+
+
+}
+.checkbox {
+  margin-top: 10  px;
+  text-align: center;
+}
+.checkbox-text {
+  font-family: Lato, Open-sans;
+  font-weight: 400;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.checkbox-text .checkbox-options {
+  margin-top: 9px;
+  margin-left: -16px !IMPORTANT;
+
+
+}
+
+.buttons {
+  margin-top: 5px;
+  text-align: center;
+  padding-left: 25px;
+
+
+}
+
+.button {
+  font-size: 17px;
+  margin-right: 10px;
+  background-color: #8e44ad;
+  border-color: #616161;
+  border-radius: 0px;
+  color: #fff;
+  
+}
+
+
+
+.text {
+  text-align: left;
+  clear: all;
+  font-family: Lato, Open-sans;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: none;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+
+.text2 {
+  text-align: left;
+  clear: all;
+  font-family: Lato, Open-sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: none;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.text3 {
+  text-align: left;
+  clear: all;
+  font-family: Lato, Open-sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: none;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.text4 {
+  text-align: left;
+  clear: all;
+  font-family: Lato, Open-sans;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: none;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.grid {
+  height: 500px;
+  background-image: url(pattern.jpg);
+  background-repeat: repeat;
+  border: 1px solid #ddd;
+
+}
+
+.grid-box {
+  border: 1px solid #e2e2e2;
+  height: 250px;
+  padding: 10px 10px 10px 10px;
+ 
+}
+
+.long-list {
+  height: 500px;
+  margin-top: 10px;
+  background-repeat: repeat;
+
+}
+
+.long-list-box {
+  
+  height: 250px;
+  padding: 5px 5px 5px 5px;
+
+ 
+
+}
+
+.task-container {
+  /*border: 1px solid #7b7b7b;*/
+  /*border-radius: 5px;*/
+  height: 240px;
+  padding-top: 10px;
+  padding-left: 10px;
+  /*text-align: center;*/
+  overflow-y:auto; 
+}
+
+
+.task-container-1 {
+  background-color: #e74c3c;
+}
+
+.task-container-2 {
+  background-color: #3498db ;
+  /*opacity: 0.85;*/
+}
+
+.task-container-3 {
+  background-color: #2ecc71 ;
+  /*opacity: 0.75;*/
+
+}
+
+.task-container-4 {
+  background-color: #f39c12;
+ /* opacity:0.6;*/
+}
+
+
+
+/*.task-container-1 {
+  background-color: #e74c3c;
+}
+
+.task-container-2 {
+  background-color: #e74c3c ;
+  opacity: 0.85;
+}
+
+.task-container-3 {
+  background-color: #e74c3c ;
+  opacity: 0.75;
+
+}
+
+.task-container-4 {
+  background-color: #e74c3c;
+  opacity:0.6;
+}*/
+
+.task-box-num {
+  float:right;
+  font-family: Lato, Open-sans;
+  font-size: 50px;
+  color: #fff;
+  margin-top: -10px;
+  opacity: 0.5;
+  margin-right: 5px;
+  
+
+
+}
+
+#task-num-1{
+  font-size: 70px;
+  margin-top: -20px;
+}
+
+#task-num-2 {
+  font-size: 45px;
+  margin-top: -15px;
+}
+
+#task-num-3 {
+  font-size: 35px;
+  margin-top: -15px;
+}
+
+#task-num-4 {
+  font-size: 20px;
+}
+.checkbox_custom {
+  height: 15px;
+  width: 15px;
+  background-color: #e74c3c !IMPORTANT;
+  opacity: 1;
+
+}
+
+.task-list-1, .task-list-2, .task-list-3, .task-list-4 {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  float: right;
+  visibility: hidden;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Lato, Open-sans;
+  font-weight: 300;
+}
+
+.delete-button:hover {
+  font-weight: 700;
+  color: #000;
+  padding: 5px 4px 5px 4px;
+}
+
+
+.delete-button-visible {
+  visibility: visible;
+}
