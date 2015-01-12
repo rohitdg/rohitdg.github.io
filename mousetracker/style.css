@@ -1,0 +1,32 @@
+.container {
+
+	width  : 1140px;
+	height : 500px; 
+	border: 1px solid black;
+	margin:  115px auto;
+}
+
+.divin {
+
+	width: 18px;
+	height : 18px;
+	background-color: #e1e1e1;
+	/*	border: 2px solid #a1a1a1;
+*/	float : left;
+	display: inline-block;
+	margin: 2px 2px 2px 2px;
+}
+
+.button {
+
+	position: relative;
+	margin-left: 47%;
+	top: 13vh;
+} 
+
+.title {
+	text-align: center;
+	color: #343434;
+	position: relative;
+	top: 6vh;
+}
