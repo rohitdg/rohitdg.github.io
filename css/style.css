@@ -76,6 +76,7 @@ body {
   text-align: center;
   padding-top: 15px;
   line-height: 100px;
+  margin-top: 16px;
 }
 
 
@@ -88,11 +89,11 @@ body {
 .homepage_divs_text {
   font-family: Lato;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 /*  display: inline;*/
   color: #fff;
   margin-left: 10px;
-  margin-top: -30px;
+  margin-top: -45px;
 }
 
 
@@ -117,6 +118,11 @@ body {
 
 .menuitem:hover {
   color: orange !important;
+}
+
+.menuitem:focus {
+  color:orange;
+  text-decoration: underline;
 }
 
   
@@ -159,15 +165,15 @@ body {
   margin-top: 125px;
 }
 
-#home-section {
+.home-section {
   width: 100%;
   min-height: 80%;
 
 }
 
-#works-section {
+.works-section {
   background-color: #272727;
-  height: 80%;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -177,8 +183,11 @@ body {
 
 .project {
   margin-top: 30px;
+  position: relative;
+  height: 180px;
 }
-#works-section-2 {
+
+#image-section-2 {
   background-color: #272727;
   height: 80%;
   width: 100%;
@@ -199,9 +208,32 @@ body {
 }  
 
 .works-image {
+  height: 100%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.project_onhover {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+.project:hover .project_onhover {
+  display: block;
+}
+
+.project:hover .works-image {
+  opacity: 0.2;
+  background-color: #000;
 }
 
 .works-details {
@@ -233,9 +265,7 @@ body {
   text-decoration: underline;
 }
 
-.project {
-
-}
+.project_hover {}
 
 
 #contact {
@@ -267,12 +297,12 @@ body {
 
 #skill_right_box {
   position: relative;
-  right: -15px;
+  /*right: -15px;*/
 }
 
 #skill_left_box {
   position: relative;
-  left: -15px;
+  /*left: -15px;*/
 }
 
 .about_text {
@@ -293,7 +323,7 @@ body {
   text-align: left;
   height: 60px;
   padding-top: 5px;
-  line-height: 60px;
+ /* line-height: 60px;*/
 }
 
 #contacts_page {
@@ -308,6 +338,7 @@ body {
 
 .workflow_text {
   display: inline;
+
 }
 
 .blog_post {
@@ -355,4 +386,47 @@ li {
   font-size: 16px;
   color: #fff;
   line-height: 0.95;
+}
+
+
+
+
+
+
+
+.project_title {
+  text-align: center;
+  background-color: #000;
+  color: orange;
+  font-family: Lato;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.project_desc {
+  text-align: center;
+  color: #fff;
+  font-family: Lato;
+  font-size: 17px;
+}
+.project_hover_button {
+  height: 30px;
+  width: 60px;
+  background-color: #000;
+  color: orange;
+  display: inline;
+  border: none;
+  font-family: Lato;
+  font-size: 18px;
+
+}
+
+#visit {
+  float: left;
+  margin-left: 25px;
+}
+
+#code {
+  float: right;
+  margin-right: 25px;
 }
