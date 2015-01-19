@@ -70,6 +70,10 @@ body {
   color: orange;
 }
 
+#name_header:hover {
+  text-decoration: none;
+}
+
 
 .homepage_box {
   height: 100px;
@@ -435,4 +439,16 @@ li {
 #code {
   float: right;
   margin-right: 25px;
+}
+
+.workflow_text_box {
+  display: inline;
+}
+
+.social_links {
+  color: orange;
+}
+
+.social_links:hover {
+  color: orange;
 }
