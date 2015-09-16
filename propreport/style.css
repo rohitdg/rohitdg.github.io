@@ -1,0 +1,147 @@
+.container {
+	margin-top: 2px;
+	b/*a*/ckground-color: #2e2e2e;
+	padding-top: 4px;
+}
+
+
+#heading {
+	text-align: center;
+	height: 30px;
+}
+
+#title {
+	font-size: 16px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+#details_container {
+	/*background-color: #efefef;*/
+	border: 1px double #a1a1a1;
+	height: 235px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+}
+
+	#map_box {
+/*		border: 1px solid red;
+*/		height: 100%;
+	}
+
+.image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+	#docs_compare_box {
+		margin-top: 25px;
+	}
+		.bs-example {
+			border: 1px solid #ddd;
+		}
+			.table {
+				margin-bottom: 0px;
+			}
+	
+				.matching {
+					color: green;
+				}
+
+				.not-matching {
+					color: red;
+				}
+span {
+	margin-right: 3px;
+}
+	.glyphicon-ok {
+		color: green;
+	}
+
+	.glyphicon-remove {
+		color: red;
+	}
+
+	.glyphicon-link {
+		margin-left: 40px;
+	}
+
+	#owner_box {
+		height: 100%;
+	}
+
+
+
+
+#other_prop_details_container {
+	height: 90px;
+}
+
+	.other_details_box {
+		height: inherit;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.other_details_box_inner {
+		height: inherit;
+		border: 1px solid #e1e1e1;
+		text-align: center;
+		padding-top: 5px;
+
+	}
+
+	.details_box_title {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: bold; 
+	}
+
+		.glyphicon-thumbs-up {
+			font-size: 26px;
+			display: inline-block;
+			color: green;
+		}
+
+		.glyphicon-thumbs-down {
+			font-size: 26px;
+			display: inline-block;
+			color: red;
+		}
+
+		.glyphicon-ban-circle {
+			font-size: 26px;
+			display: inline-block;
+			color: blue;
+		}
+
+		.details_box_text {
+			font-size: 12px;
+			font-weight: normal;
+			text-align: center;
+			display: inline-block;
+			position: relative;
+    		top: -7px;
+    		margin-bottom: 0px;
+		}
+
+		.bill_link {
+			display: inline-block;
+			float: left;
+			margin-top: 10px;
+			position: relative;
+			left: -5px;
+			color: #808080
+
+		}
+
+		.bill_text {
+			margin-top: 10px;
+			font-size: 12px;
+			/*position: relative;
+			left: -38px;*/
+			color: #808080;
+			text-align: left;
+		}
+
+
