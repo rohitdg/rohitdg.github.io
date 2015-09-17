@@ -4,6 +4,10 @@
 	padding-top: 4px;
 }
 
+body {
+	font-family: Helvetica;
+}
+
 
 #heading {
 	text-align: center;
@@ -153,4 +157,13 @@ span {
 	width: 5px;
 }
 
+.details_link {
+	position: relative;
+	left: 40px;
+}
+
+.panel-heading {
+	font-size: 15px;
+	font-weight: bold;
+}
 
