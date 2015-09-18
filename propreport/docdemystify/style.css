@@ -1,0 +1,57 @@
+body {
+	font-family: sans-serif;
+}
+.container {
+	height: 100%;
+	
+}
+
+
+#page_title{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#documents_list_box {
+	border: 2px solid #E4D946;
+	border-radius: 4px;
+	height: 320px;
+	margin-bottom: 20px;
+}
+
+.list_group {
+	margin-top: 10px;
+}
+
+#documents_list {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.each_doc_box {
+	margin: 2px;
+	border: 1px solid #a2a2a2;
+	height: 350px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+.panel-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.each_box_list {
+	text-align: left;
+}
+
+.box_list_inner_list {
+	line-height: 15px;
+	padding-left: 25px;
+	padding-top: 5px;
+}
+.box_list_inner_list_item{
+	margin-bottom: 6px;
+}
