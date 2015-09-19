@@ -79,6 +79,7 @@ span {
 
 #other_prop_details_container {
 	height: 90px;
+	margin-bottom: 20px;
 }
 
 	.other_details_box {
@@ -146,6 +147,7 @@ span {
 			left: -38px;*/
 			color: #808080;
 			text-align: left;
+			display: inline;
 		}
 
 
@@ -167,3 +169,12 @@ span {
 	font-weight: bold;
 }
 
+
+.bs-example{
+	border: none;
+}
+
+.amenities_bills {
+	margin-top: 20px;
+	margin-left: 60px;
+}
