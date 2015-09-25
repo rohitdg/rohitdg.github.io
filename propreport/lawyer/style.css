@@ -1,6 +1,5 @@
 .container {
 	margin-top: 2px;
-	b/*a*/ckground-color: #2e2e2e;
 	padding-top: 4px;
 }
 
@@ -11,8 +10,11 @@ body {
 
 #heading {
 	text-align: center;
-	height: 30px;
+	height: 75px;
+	margin-bottom: 10px;
+	border-bottom: 1px double #111111;
 }
+
 
 #title {
 	font-size: 16px;
@@ -155,6 +157,10 @@ span {
 	margin-top: 25px;
 }
 
+#top-panel-utilities {
+	margin-top: 100px;
+}
+
 .link_columns { 
 	width: 5px;
 }
@@ -177,4 +183,49 @@ span {
 .amenities_bills {
 	margin-top: 20px;
 	margin-left: 60px;
+}
+
+
+#documents_list_box {
+	border: 2px solid #E4D946;
+	border-radius: 4px;
+	height: 470px;
+	margin-bottom: 20px;
+}
+
+.list_group {
+	margin-top: 10px;
+}
+
+#documents_list_title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#documents_list {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+#index_property_list {
+	list-style: none;
+}
+
+#property_list_box {
+	border: 2px solid #E4D946;
+	border-radius: 4px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+#sections_in {
+	border: 2px solid #E4D946;
+	border-radius: 4px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+#sections_list {
+	margin-top: 10px;
 }
