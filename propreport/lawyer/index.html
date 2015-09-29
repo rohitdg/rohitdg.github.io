@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Property Report </title>
+    <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -29,30 +29,91 @@
       </div>
       
       
+      <div class="col-md-8">
+        <div class="col-md-6" >
 
-      <div class="col-md-3" >
+          <div id="property_list_box">
+            <p id="documents_list_title">Property</p>
+            <ul id="index_property_list">
+              <li>1st Floor,</li>
+              <li>RAAJ Towers,</li>
+              <li>Plot No. 105 & </li>
+              <li>Plot No. 106,</li>
+              <li>Nolambur Main Road,</li>
+              <li>Mogappair West,</li>
+              <li>Chennai,</li>
+              <li>600037</li>
+            </ul>
+          </div>
+        </div>
 
-        <div id="sections_in">
-          <p id="documents_list_title">Sections In the Report</p>
-          <ol id="sections_list">
-            <li> <a href="report_105.html" target="_blank">Property Report for Plot No.105</a> </li>
-            <li><a href="report_106.html" target="_blank">Property Report for Plot No.106</a> </li>
-            <li><a href="report_utilities.html" target="_blank">Utilities and CMDA reports for RAAJ Towers</a> </li>
-          </ol>
+        <div class="col-md-6">
+          <div id="sections_in">
+            <p id="documents_list_title">Sections In the Report</p>
+            <ol id="sections_list">
+              <li>Property Report for
+                <ol>
+                  <li><a href="report_105.html" target="_blank">Plot No.105</a> </li>
+                  <li><a href="report_106.html" target="_blank">Plot No.106</a> </li>
+                  <li><a href="#" target="_blank">RAAJ Towers</a> </li>
+                  <li><a href="#" target="_blank">1st Floor</a></li>
+                </ol>
+              </li>
+              
+              
+              <li> Ownership Chain for
+                <ol>
+                  <li><a href="chain_105.html" target="_blank"> Plot No. 105</a> </li>
+                  <li><a href="chain_106.html" target="_blank"> Plot No. 106</a> </li>  
+                  <li><a href="#" target="_blank">RAAJ Towers</a> </li>
+                  <li><a href="#" target="_blank">1st Floor</a></li>
+                </ol>
+              </li>
+
+              <li><a href="report_utilities.html" target="_blank">Utilities and CMDA reports for 1st Floor, RAAJ Towers</a> </li>
+
+
+            </ol>
+          </div>
         </div>
-        <div id="property_list_box">
-          <p id="documents_list_title">Property</p>
-          <ul id="index_property_list">
-            <li>RAAJ Towers,</li>
-            <li>Plot No. 105 & Plot No. 106,</li>
-            <li>Nolambur Main Road,</li>
-            <li>Mogappair West,</li>
-            <li>Chennai,</li>
-            <li>600037</li>
-          </ul>
+        <div class="col-md-12">
+          <div class="ownership_div">
+            <div class="col-md-3">
+              <div class="ownership_div_boxes">
+                <h5 class="ownership_box_title">Seller</h5>
+                <br>
+                <p>Mrs. Rajeswari</p>
+              </div>
+              
+            </div>
+            <div class="col-md-3">
+              <div class="ownership_div_boxes">
+                <h5 class="ownership_box_title">Owner</h5>
+                <br>
+                <p>Bank</p>  
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ownership_div_boxes">
+                <h5 class="ownership_box_title">Possession</h5>
+                <br>
+                <p>Mrs.Rajeswari</p>  
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ownership_div_boxes">
+                <h5 class="ownership_box_title">Original Title</h5>
+                <br>
+                <p>Bank</p>  
+              </div>
+            </div>
+          </div>
         </div>
+        
       </div>
-      <div class="col-md-9" >
+      
+
+      <div class="col-md-4" >
         <div id="documents_list_box">
           <p id="documents_list_title">Documents Used</p>
           <ol class="list_group" id="documents_list">
@@ -65,14 +126,15 @@
               <ol>
                 <li>Plot No.105</li>
                 <li>Plot No.106</li>
+                <li>RAAJ Towers</li>
               </ol>
             <li>Certified Copies</li>
-              <ol>
+              <!-- <ol>
                 <li>Doc 1</li>
                 <li>Doc 2</li>
                 <li>Doc 3</li>
                 <li>Doc 4</li>
-              </ol>
+              </ol> -->
             <li>Patta</li>
             <li>CMDA Approval</li>
             <li>CMDA Completion Certificate</li>
@@ -81,9 +143,10 @@
             <li>Latest Water and Sewage Tax Receipt</li>
           </ul>  
         </div>
-
-        
       </div>
+
+     
+
 
       
     </div>
