@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Property Report</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -21,533 +21,731 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="col-sm-12" id="heading">
-        <p id="title">Property Report</p>
+        <p id="title">Chain of Ownership</p>
         <div class="prop_report_title_block col-md-8 col-md-offset-2">
           <p>Plot No.106, Nolambur Main Road, Moggappair West, Chennai - 600037</p>
         </div>
       </div>
-      
 
-      <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
-        <ul id="myTabs" class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#property" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">Property</a></li>
-          <li role="presentation" class=""><a href="#owner" role="tab" id="owner-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Owner</a></li>
+      <div class="col-md-12 chain_body">
+        <!-- <div class="col-md-2 col-md-offset-2 chain_transaction_box">
+          <div class="arrow-tail"></div>
+          <div class ="arrow-down"></div>
+        </div> -->
+        <div class="col-md-4 col-md-offset-1 chain_transaction_box">
           
-          
-        </ul>
-        <div id="myTabContent" class="tab-content">
-          <div role="tabpanel" class="tab-pane fade active in" id="property" aria-labelledby="home-tab">
-           
-            <!-- Area of Property -->
-            <div class="panel panel-info" id = "top-panel">
-            <!-- Default panel contents -->
-              <div class="panel-heading">Area of the Property</div>
-              <div class="panel-body">
-                <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. </p>
+          <div class="chain_box_title">
+            <p class="chain_box_title_text">
+              Chain of Ownership from Deed
+            </p>
+          </div>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            
+            <!-- Transaction1 -->
+            <div class="panel panel-default">
+
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <div class="panel-heading" role="tab" id="headingOne">
+                
+                  <h4 class="panel-title panel_title_from">
+                    N/A 
+                  </h4>
+                  <h4 class="panel-title panel_title_to">
+                    T.N.H.B 
+                  </h4>
+                </div>  
+              </a>
+              <!-- Transaction 1 -->
+              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">Type of Transaction</th>
+                        <td>Acquisition & Layout</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Nature of Property</th>
+                        <td>Vacant Sites</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Date</th>
+                        <td>28.02.1988</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">S R O</th>
+                        <td>N/A</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Document for Proof</th>
+                        <td>G.O.Ms No.7 Nolambur Phase 1 Scheme</td>
+                      </tr>
+                      
+                      <tr>
+                        <th scope="row">Certified Copy</th>
+                        <td><a href="files/deed.pdf" target="_blank"></a></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Original Deed</th>
+                        <td>Not Available</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Deed Copy</th>
+                        <td>Not Available</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">EC Entry</th>
+                        <td> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
+            </div>
+            
+            <!-- Transaction2 -->
+            <div class="panel panel-default">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                
+                  <h4 class="panel-title panel_title_from">
+                    T.N.H.B  
+                  </h4>
+                  <h4 class="panel-title panel_title_to">
+                    Mr. P.Kathiresan 
+                  </h4>
+                </div>  
+              </a>
 
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="link_columns" ></th>
-                    <th>Deed</th>
-                    <th class="link_columns" ></th>
-                    <th>Certified Copy</th>
-                    <th class="link_columns" ></th>
-                    <th>Encumberance Certificate</th>
-                    <th class="link_columns" ></th>
-                    <th>Patta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">Type of Transaction</th>
+                        <td>Lease cum Sale Agreement</td>
+                      </tr>
 
+                      <tr>
+                        <th scope="row">Nature of Property</th>
+                        <td>Plot No. 106</td>
+                      </tr>
 
-                    <td>
-                      <a  data-toggle="collapse" href="#area_deed" aria-expanded="false" aria-controls="area_deed">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                    </td>
-                    <td>554.47 sq. m</td>
+                      <tr>
+                        <th scope="row">Date</th>
+                        <td>08.01.1993</td>
+                      </tr>
 
+                      <tr>
+                        <th scope="row">S R O</th>
+                        <td>N/A</td>
+                      </tr>
 
-                    <td>
-                      <a  data-toggle="collapse" href="#area_certifiedcopy" aria-expanded="false" aria-controls="area_certifiedcopy">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>554.47 sq. m.</td>
+                      <tr>
+                        <th scope="row">Document for Proof</th>
+                        <td>N/A</td>
+                      </tr>
 
+                      <tr>
+                        <th scope="row">Certified Copy</th>
+                        <td>N/A</td>
+                      </tr>
 
-                    <td>
-                      <a  data-toggle="collapse" href="#area_EC" aria-expanded="false" aria-controls="area_EC">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>554.47 sq. m.</td>
+                      <tr>
+                        <th scope="row">Original Deed</th>
+                        <td>N/A</td>
+                      </tr>
 
+                      <tr>
+                        <th scope="row">Deed Copy</th>
+                        <td>N/A</td>
+                      </tr>
 
-                    <td>
-                      <a  data-toggle="collapse" href="#area_patta" aria-expanded="false" aria-controls="area_patta">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-
-
-                  </tr>
-                  <tr class = "collapse" id = "area_deed"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0">test.pdf</a>
-                      </object>
-                    </td> 
-                  </tr>
-                  
-                  <tr class = "collapse" id = "area_certifiedcopy"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_EC"> 
-                    <td colspan=8>
-                      <object data="files/EC_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_105.pages?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_patta"> 
-                    <td colspan=8>
-                      <object data="files/patta.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/som2ot2sust81cy/patta.jpeg?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-                </tbody>
-              </table>
+                      <tr>
+                        <th scope="row">EC Entry</th>
+                        <td>N/A</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
 
+            <!-- Transaction3 -->
+            <div class="panel panel-default">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <div class="panel-heading" role="tab" id="headingThree">
+                
+                  <h4 class="panel-title panel_title_from">
+                    T.N.H.B
+                  </h4>
+                  <h4 class="panel-title panel_title_to">
+                    Mr. P.Kathiresan
+                  </h4>
+                </div>  
+              </a>
 
-            <!-- Survey Numbers -->
-            <div class="panel panel-info" id = "top-panel">
-            <!-- Default panel contents -->
-              <div class="panel-heading">Survey Numbers for the property</div>
-              <div class="panel-body">
-                <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. </p>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">Type of Transaction</th>
+                        <td>Sale Deed</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Nature of Property</th>
+                        <td>Plot No. 106</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Date</th>
+                        <td>11.12.2001</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">S R O</th>
+                        <td>Konnur, Chennai</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Document for Proof</th>
+                        <td>Sale Deed Document No.3981</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Certified Copy</th>
+                        <td>
+                          <a href="#myModal" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/cc_3981.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Original Deed</th>
+                        <td>Not Available</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Deed Copy</th>
+                        <td>N/A</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">EC Entry</th>
+                        <td>
+                          
+
+                          <a href="#myModal2" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/EC_106.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="link_columns"></th>
-                    <th>Deed</th>
-                    <th class="link_columns"></th>
-                    <th>Certified Copy</th>
-                    <th class="link_columns"></th>
-                    <th>Encumberance Certificate</th>
-                    <th class="link_columns"></th>
-                    <th>Patta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_deed_2" aria-expanded="false" aria-controls="area_deed_2">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                    </td>
-                    <td>330/1 part <br> 336/1 part <br> 334 part <br> 335 part</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_certifiedcopy_2" aria-expanded="false" aria-controls="area_certifiedcopy_2">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_EC_2" aria-expanded="false" aria-controls="area_EC_2">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>330/1 <br> 336/1 part <br> 334 part <br> 335 part <br> 336/1 part</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_patta_2" aria-expanded="false" aria-controls="area_patta_2">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-                  </tr>
-                  <tr class = "collapse" id = "area_deed_2"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0">test.pdf</a>
-                      </object>
-                    </td> 
-                  </tr>
-                  
-                  <tr class = "collapse" id = "area_certifiedcopy_2"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_EC_2"> 
-                    <td colspan=8>
-                      <object data="files/EC_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_105.pages?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_patta_2"> 
-                    <td colspan=8>
-                      <object data="files/patta.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/som2ot2sust81cy/patta.jpeg?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-                </tbody>
-              </table>
             </div>
 
+            <!-- Transaction4 -->
+            <div class="panel panel-default">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <div class="panel-heading" role="tab" id="headingFour">
+                
+                  <h4 class="panel-title panel_title_from">
+                    Mr. P.Kathiresan
+                  </h4>
+                  <h4 class="panel-title panel_title_to">
+                    Mrs. M.Rajeswari
+                  </h4>
+                </div>  
+              </a>
+
+              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class="panel-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">Type of Transaction</th>
+                        <td>Gift</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Nature of Property</th>
+                        <td>Plot No. 106</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Date</th>
+                        <td>12.12.2001</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">S R O</th>
+                        <td>Konnur, Chennai</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Document for Proof</th>
+                        <td>Gift Deed document No. 4002</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Certified Copy</th>
+                        <td>
+                          
+                          <a href="#myModal3" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/cc_4001.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                        
+                        </td>
+                      </tr>
 
 
-            <!-- Schedule of Property -->
-            <div class="panel panel-info" id = "top-panel">
-            <!-- Default panel contents -->
-              <div class="panel-heading">Schedule of Property</div>
-              <div class="panel-body">
-                <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. </p>
+                      <tr>
+                        <th scope="row">Original Deed</th>
+                        <td>Not Available</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Deed Copy</th>
+                        <td>
+                         
+                          <a href="#myModal4" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/deed_106.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>      
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">EC Entry</th>
+                        <td>
+                         
+                          <a href="#myModal5" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/EC_106.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>      
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Directions</th>
-                    <th class="link_columns"></th>
-                    <th>Deed</th>
-                    <th class="link_columns"></th>
-                    <th>Certified Copy</th>
-                    <th class="link_columns"></th>
-                    <th>Encumberance Certificate</th>
-                    <th class="link_columns"></th>
-                    <th>Patta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>North <br> East <br> South <br> West </td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_deed_3" aria-expanded="false" aria-controls="area_deed_3">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                    </td>
-                    <td>HIG II Plots <br> Plot No. HIG I - 106  <br> 21.30 M Road  <br> 12.20 M Road </td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_certifiedcopy_3" aria-expanded="false" aria-controls="area_certifiedcopy_3">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_EC_3" aria-expanded="false" aria-controls="area_EC_3">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>HIG II Plots <br> Plot No. HIG-I-106 <br> 21.30 M Road <br> 12.20M Road</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_patta_3" aria-expanded="false" aria-controls="area_patta_3">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-                  </tr>
-
-                  <tr class = "collapse" id = "area_deed_3"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0">test.pdf</a>
-                      </object>
-                    </td> 
-                  </tr>
-                  
-                  <tr class = "collapse" id = "area_certifiedcopy_3"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_EC_3"> 
-                    <td colspan=8>
-                      <object data="files/EC_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_105.pages?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_patta_3"> 
-                    <td colspan=8>
-                      <object data="files/patta.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/som2ot2sust81cy/patta.jpeg?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <!-- Location of Property -->
-            <div class="panel panel-info" id = "top-panel">
-            <!-- Default panel contents -->
-              <div class="panel-heading">Location of Property</div>
-              <div class="panel-body">
-                <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. </p>
-              </div>
-
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="link_columns"></th>
-                    <th>Deed</th>
-                    <th class="link_columns"></th>
-                    <th>Certified Copy</th>
-                    <th class="link_columns"></th>
-                    <th>Encumberance Certificate</th>
-                    <th class="link_columns"></th>
-                    <th>Patta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_deed_4" aria-expanded="false" aria-controls="area_deed_4">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                    </td>
-                    <td> Plot No. HIG-I-105 <br> Nolambur Scheme <br> Nolambur Village <br> Thiruvallur Dist</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_certifiedcopy_4" aria-expanded="false" aria-controls="area_certifiedcopy_4">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_EC_4" aria-expanded="false" aria-controls="area_EC_4">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>Nolambur Village</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_patta_4" aria-expanded="false" aria-controls="area_patta_4">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>N/A</td>
-                  </tr>
-
-                  <tr class = "collapse" id = "area_deed_4"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0">test.pdf</a>
-                      </object>
-                    </td> 
-                  </tr>
-                  
-                  <tr class = "collapse" id = "area_certifiedcopy_4"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_EC_4"> 
-                    <td colspan=8>
-                      <object data="files/EC_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_105.pages?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-
-                  <tr class = "collapse" id = "area_patta_4"> 
-                    <td colspan=8>
-                      <object data="files/patta.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/som2ot2sust81cy/patta.jpeg?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <!-- Property Map -->
-            <div class="panel panel-info" id = "top-panel">
-            <!-- Default panel contents -->
-              <div class="panel-heading">Map of the Property</div>
-              <div class="panel-body">
-                <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. </p>
-              </div>
-
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Deed</th>
-                    <th>Certified Copy</th>
-                    <th>FMB Copy</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><img src="images/map_deed_106.png" alt="" class = "image"></td>
-                    <td><img src="images/map_certifiedcopy_106.png" alt="" class = "image"></td>
-                    <td><img src="images/map_fmb_106.png" alt="" class = "image"></td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
+        </div>
 
 
-          <div role="tabpanel" class="tab-pane fade " id="owner" aria-labelledby="owner-tab">
-            <!-- Owner Details -->
-            <div class="panel panel-info" id = "top-panel">
-            <!-- Default panel contents -->
-              <div class="panel-heading">Owner Details</div>
-              <div class="panel-body">
-                <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. </p>
+        <!-- OWnership from EC -->
+        <div class="col-md-4 col-md-offset-2 chain_transaction_box">
+          
+          <div class="chain_box_title">
+            <p class="chain_box_title_text">
+              Chain of Ownership from EC
+            </p>
+          </div>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            
+            <!-- Transaction1 -->
+            <div class="panel panel-default">
+
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne_EC" aria-expanded="false" aria-controls="collapseOne_EC">
+                <div class="panel-heading" role="tab" id="headingOne_EC">
+                
+                </div>  
+              </a>
+              <!-- Transaction 1 -->
+              <div id="collapseOne_EC" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne_EC">
+                <div class="panel-body">
+                  
+                </div>
               </div>
-
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th class="link_columns"></th>
-                    <th>Deed</th>
-                    <th class="link_columns"></th>
-                    <th>Certified Copy</th>
-                    <th class="link_columns"></th>
-                    <th>Encumberance Certificate</th>
-                    <th class="link_columns"></th>
-                    <th>Patta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Name</td>
-                    <td><a  data-toggle="collapse" href="#area_deed_6" aria-expanded="false" aria-controls="area_deed_6">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> </td>
-                    <td>Mrs. M Rajeshwari</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_certifiedcopy_6" aria-expanded="false" aria-controls="area_certifiedcopy_6">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>Test</td>
-                    <td><a  data-toggle="collapse" href="#area_EC_6" aria-expanded="false" aria-controls="area_EC_6">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>Test</td>
-                    <td>
-                      <a  data-toggle="collapse" href="#area_patta_6" aria-expanded="false" aria-controls="area_patta_6">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                    </td>
-                    <td>Test</td>
-                  </tr>
+            </div>
+            
+            <!-- Transaction2 -->
+            <div class="panel panel-default">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo_EC" aria-expanded="false" aria-controls="collapseTwo_EC">
+                <div class="panel-heading" role="tab" id="headingTwo_EC">
+                
                   
-                  <tr>
-                    <td>W/O</td>
-                    <td></td>
-                    <td>Mr. K. Malaisamy</td>
-                    <td></td>
-                    <td>Test</td>
-                    <td></td>
-                    <td>Test</td>
-                    <td></td>
-                    <td>Test</td>
-                  </tr>
+                </div>  
+              </a>
+
+              <div id="collapseTwo_EC" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_EC">
+                <div class="panel-body">
                   
-                  <tr>
-                    <td>Age</td>
-                    <td></td>
-                    <td>59</td>
-                    <td></td>
-                    <td>Test</td>
-                    <td></td>
-                    <td>Test</td>
-                    <td></td>
-                    <td>Test</td>
-                  </tr>
+                </div>
+              </div>
+            </div>
 
-                  <tr>
-                    <td>Address</td>
-                    <td></td>
-                    <td>A.C.89, Second Street, <br> Anna Nagar, Chennai</td>
-                    <td></td>
-                    <td>Test</td>
-                    <td></td>
-                    <td>Test</td>
-                    <td></td>
-                    <td>Test</td>
-                  </tr>
+            <!-- Transaction3 -->
+            <div class="panel panel-default">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree_EC" aria-expanded="false" aria-controls="collapseThree_EC">
+                <div class="panel-heading" role="tab" id="headingThree_EC">
+                
+                  <h4 class="panel-title panel_title_from">
+                    T.N.H.B
+                  </h4>
+                  <h4 class="panel-title panel_title_to">
+                    Mr. P.Kathiresan
+                  </h4>
+                </div>  
+              </a>
 
-                  <tr class = "collapse" id = "area_deed_6"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0">test.pdf</a>
-                      </object>
-                    </td> 
-                  </tr>
-                  
-                  <tr class = "collapse" id = "area_certifiedcopy_6"> 
-                    <td colspan=8>
-                      <object data="files/deed_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/npl3whko31avmer/deed%20p.No%20105.pdf?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
+              <div id="collapseThree_EC" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree_EC">
+                <div class="panel-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">Type of Transaction</th>
+                        <td>Sale Deed</td>
+                      </tr>
 
-                  <tr class = "collapse" id = "area_EC_6"> 
-                    <td colspan=8>
-                      <object data="files/EC_106.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_105.pages?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
+                      <tr>
+                        <th scope="row">Nature of Property</th>
+                        <td>Plot No. 106</td>
+                      </tr>
 
-                  <tr class = "collapse" id = "area_patta_6"> 
-                    <td colspan=8>
-                      <object data="files/patta.pdf" type="application/pdf" width="800px" height="600px">
-                          alt : <a href="https://www.dropbox.com/s/som2ot2sust81cy/patta.jpeg?dl=0"></a>
-                      </object>
-                    </td> 
-                  </tr>
+                      <tr>
+                        <th scope="row">Date</th>
+                        <td>11.12.2001</td>
+                      </tr>
 
-                </tbody>
-              </table>
+                      <tr>
+                        <th scope="row">S R O</th>
+                        <td>Konnur, Chennai</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Document for Proof</th>
+                        <td>Sale Deed Document No. 3980</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Certified Copy</th>
+                        <td>
+                          <a href="#myModal6" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/cc_3981.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Original Deed</th>
+                        <td>Not Available</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Deed Copy</th>
+                        <td>N/A</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">EC Entry</th>
+                        <td>
+                          
+
+                          <a href="#myModal7" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/EC_106.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Transaction4 -->
+            <div class="panel panel-default">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour_EC" aria-expanded="false" aria-controls="collapseFour_EC">
+                <div class="panel-heading" role="tab" id="headingFour">
+                
+                  <h4 class="panel-title panel_title_from">
+                    Mr. P.Kathiresan
+                  </h4>
+                  <h4 class="panel-title panel_title_to">
+                    Mrs. M.Rajeswari
+                  </h4>
+                </div>  
+              </a>
+
+              <div id="collapseFour_EC" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour_EC">
+                <div class="panel-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">Type of Transaction</th>
+                        <td>Gift</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Nature of Property</th>
+                        <td>Plot No. 106</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Date</th>
+                        <td>12.12.2001</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">S R O</th>
+                        <td>Konnur, Chennai</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Document for Proof</th>
+                        <td>Gift Deed</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Certified Copy</th>
+                        <td>
+                          
+                          <a href="#myModal8" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/cc_4001.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                        
+                        </td>
+                      </tr>
+
+
+                      <tr>
+                        <th scope="row">Original Deed</th>
+                        <td>Not Available</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Deed Copy</th>
+                        <td>
+                         
+                          <a href="#myModal9" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/deed_106.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>      
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">EC Entry</th>
+                        <td>
+                         
+                          <a href="#myModal10" target="_blank" data-toggle="modal" >
+                            <span class="glyphicon glyphicon-link" aria-hidden="true"> </span>
+                          </a>
+
+                          <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <object data="files/EC_106.pdf" type="application/pdf" width="500px" height="500px">
+                                      alt : <a href="https://www.dropbox.com/s/vu8wpewmlfup00k/EC_complete_106.pages?dl=0"></a>
+                                  </object>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>      
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
-
-           
-
         </div>
       </div>
     </div>
