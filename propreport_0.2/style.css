@@ -1,0 +1,579 @@
+.container {
+	margin-top: 2px;
+	padding-top: 4px;
+}
+
+body {
+	font-family: Helvetica;
+	background-color: #f1f1f1; 
+	background-image: url("images/brickwall.png");
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Abel', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+
+
+
+#heading {
+	/*text-align: center;*/
+	height: 65px;
+	margin-bottom: 5px;
+	border-bottom: 1px double #111111;
+}
+
+
+#title {
+	font-size: 22px;
+	font-family: Helvetica;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-family: 'Lobster', cursive;
+	/*font-family: 'Martel Sans', sans-serif;*/
+}
+
+#title_prop {
+	font-size: 14px;
+}
+#details_container {
+	/*background-color: #efefef;*/
+	border: 1px double #a1a1a1;
+	height: 235px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+}
+
+	#map_box {
+/*		border: 1px solid red;
+*/		height: 100%;
+	}
+
+.image {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+	#docs_compare_box {
+		margin-top: 25px;
+	}
+		.bs-example {
+			border: 1px solid #ddd;
+		}
+			.table {
+				margin-bottom: 0px;
+			}
+	
+				.matching {
+					color: green;
+				}
+
+				.not-matching {
+					color: red;
+				}
+span {
+	margin-right: 3px;
+}
+	.glyphicon-ok {
+		color: green;
+	}
+
+	.glyphicon-remove {
+		color: red;
+	}
+
+	/*.glyphicon-link {
+		margin-left: 40px;
+	}*/
+
+	#owner_box {
+		height: 100%;
+	}
+
+
+
+
+#other_prop_details_container {
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+	.other_details_box {
+		height: inherit;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.other_details_box_inner {
+		height: inherit;
+		border: 1px solid #e1e1e1;
+		text-align: center;
+		padding-top: 5px;
+
+	}
+
+	.details_box_title {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: bold; 
+	}
+
+		.glyphicon-thumbs-up {
+			font-size: 26px;
+			display: inline-block;
+			color: green;
+		}
+
+		.glyphicon-thumbs-down {
+			font-size: 26px;
+			display: inline-block;
+			color: red;
+		}
+
+		.glyphicon-ban-circle {
+			font-size: 26px;
+			display: inline-block;
+			color: blue;
+		}
+
+		.details_box_text {
+			font-size: 12px;
+			font-weight: normal;
+			text-align: center;
+			display: inline-block;
+			position: relative;
+    		top: -7px;
+    		margin-bottom: 0px;
+		}
+
+		.bill_link {
+			display: inline-block;
+			float: left;
+			margin-top: 10px;
+			position: relative;
+			left: -5px;
+			color: #808080
+
+		}
+
+		.bill_text {
+			margin-top: 10px;
+			font-size: 12px;
+			/*position: relative;
+			left: -38px;*/
+			color: #808080;
+			text-align: left;
+			display: inline;
+		}
+
+
+#top-panel {
+	margin-top: 20px;
+}
+
+#top-panel-details {
+	margin-top: 100px;
+}
+
+#panel-utilities {
+	margin-top: 20px;
+}
+
+.link_columns { 
+	width: 5px;
+}
+
+.details_link {
+	position: relative;
+	left: 40px;
+}
+
+.panel-heading {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.bs-example{
+	border: none;
+}
+
+.amenities_bills {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+
+#documents_list_box {
+	/*order: 2px solid #E4D946;
+	border-radius: 4px;*/
+	height: 630px;
+	margin-bottom: 20px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+}
+
+.list_group {
+	margin-top: 10px;
+}
+
+#documents_list_title {
+	font-size: 12px;
+	font-weight: bold;
+	/*margin-left: 10px;*/
+}
+
+#documents_list {
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#index_property_list {
+	list-style: none;
+}
+
+#property_list_box {
+	/*border: 2px solid #E4D946;*/
+	/*border-radius: 4px;*/
+	height: 630px;
+	margin-bottom: 0px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	/*background-image: url("images/binding_dark.png");*/
+}
+
+#sections_in {
+	/*border: 2px solid #E4D946;*/
+	/*border-radius: 4px;*/
+	height: 270px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+}
+
+#sections_list {
+	margin-top: 10px;
+}
+
+
+.chain_body {
+	height: 150px;
+	margin-bottom: 10px;
+
+}
+
+.chain_owner_box {
+	border: 1px solid #a1a2a3;
+	height: 150px;
+	clear: left;
+}
+
+.chain_transaction_box {
+	/*border: 1px solid #a1a2a3;
+	height: 150px;*/
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #000;
+	margin: auto;
+}
+.arrow-tail {
+	width: 10px;
+	height: 60px;
+	background-color: #000;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.chain_table {
+	font-size: 11px;
+}
+
+.table>tbody>tr>td {
+	padding-left: 8px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+
+
+}
+
+.panel {
+	min-height: 43px;
+}
+.panel_title_from {
+	display: inline;
+}
+.panel_title_to {
+	float: right;
+}
+
+
+.chain_box_title {
+	text-align: center;
+
+}
+.chain_box_title_text{
+	font-size: 14px;
+}
+
+#ownership_div {
+	/*border: 2px solid #E4D946;*/
+	/*border-radius: 4px;*/
+	height: 350px;
+	margin-bottom: 20px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	padding-top: 1px;
+	margin-top: 10px;
+}
+
+.ownership_div_boxes {
+	border: 1.5px solid #A4D1FF;
+	border-radius: 2px;
+	height: 135px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.ownership_box_title {
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+.ownership_div {
+	padding-left: 5px;
+}
+.ownership_div_title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.owner_box_lists {
+	list-style: none;
+	margin-left: none;
+	padding-left: 0px;
+	text-align: left;
+	margin-left: 15px;
+}
+
+.owner_box_listitems {
+
+}
+
+/*
+#red_flags_box {
+	height: 270px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	padding-left: 10px;
+}*/
+
+#redflags_count {
+	color: red;
+}
+
+#redflags_list {
+	list-style: none;
+	padding-left: 20px;
+	/*margin-left: 0px;*/
+
+}
+
+#redflags_list li {
+	margin-bottom: 10px;	
+	display: inline;
+	position: relative;
+    top: -6px;
+}
+
+.success {
+	border: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+}
+
+ol {
+	padding-left: 25px;
+}
+
+#flag_icon {
+	color: red; 
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 5px;
+}
+
+#ec_icon {
+	color: #00A9FF; 
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 5px;
+	position: relative;
+	left: -2px
+}
+
+#litigations_icon {
+	color: #A5A5A5;
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 5px;
+}
+
+.tab-pane {
+	margin-top: 15px;
+}
+
+#schedule_div {
+	clear: left;
+	
+}
+
+#litigations_clear {
+	color: green;
+}
+#litigations_pending {
+	color: red;
+}
+
+#zone_type {
+	color: blue;
+}
+
+
+
+/*Ownership chain*/
+
+
+#tog-tabs {
+	margin-bottom: 50px;
+}
+.transaction_cards {
+	height: 200px;
+	box-shadow: 0px 0px 2px #0e0e0e;
+	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+#trans_card_1 {
+	margin-top: 40px;
+}
+
+.people {
+    width: 355px;
+    height: 85px;
+    background-color: #9184FF;
+    position: relative;
+    left: 25%;
+    top: -48px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#people_bottom {
+	position: relative;
+	left: 25%;
+	top: 58px;
+}
+
+.arrow {
+	font-size: 28px;
+	position: relative;
+	left: 20%;
+}
+
+.thirdboxarrow {
+	position: relative;
+	left: 50%;
+	font-size: 28px;
+}
+.trans_box{
+	height: 130px;
+	/*border: 2px solid #4a512c;*/
+	
+}
+
+.box_left {
+	position: relative;
+ 	top: -50px;
+}
+
+.box_right {
+ 	position: relative;
+ 	top: -80px;
+}
+
+.left_box_ul {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+
+.left_box_ul li {
+	margin-bottom: 15px;
+}
+
+#left_box_ul_li_docsro {
+	margin-bottom: -2px;
+	font-size: 12px;
+}
+
+
+.people_icon {
+	font-size: 24px !important;
+	/*color: #fff;*/
+	color: #fff;
+}
+
+.people_text {
+	color: #fff;
+}
+
+
+.splitcard {
+	margin-top: 120px;
+}
+.bottom_box_content {
+	position: relative;
+	top: -100px
+}
+
+#boxesinthirdrow_left {
+	position: relative;
+	top: -150px;
+}
+
+#boxesinthirdrow_right {
+	position: relative;
+	top: -170px;
+}
+
+#red_flags_div {
+	margin-top: 30px;	
+}
+
+#red_flags_list {
+
+}
+
+#red_flags_div_title {
+	font-size: 14px;
+	color: red;
+}
+
+.view_redflag_icon {
+	
+}
