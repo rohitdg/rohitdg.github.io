@@ -182,6 +182,10 @@ span {
 	margin-top: 20px;
 }
 
+#top-panel-utilities {
+	margin-top: 100px;
+}
+
 .link_columns { 
 	width: 5px;
 }
@@ -214,6 +218,7 @@ span {
 	margin-bottom: 20px;
 	box-shadow: 0px 1px 2px #0e0e0e;
 	background-color: #fff;
+
 }
 
 .list_group {
@@ -229,6 +234,8 @@ span {
 #documents_list {
 	font-size: 12px;
 	line-height: 25px;
+	height: 580px;
+	overflow: scroll;
 }
 
 #index_property_list {
@@ -354,6 +361,7 @@ span {
 .ownership_div_title {
 	font-weight: bold;
 	font-size: 16px;
+	display: inline-block;
 }
 
 .owner_box_lists {
@@ -575,5 +583,44 @@ ol {
 }
 
 .view_redflag_icon {
+
+}
+
+#encumbrances_table {
+	background-color: #fff;
+}
+
+.encumbrances_table_titles {
+	font-size: 14px;
+}
+
+.encumbrances_outstanding_cell {
 	
+	max-width: 40px;
+}
+
+.encumbrances_outstanding {
+	background-color: #FF858E;
+}
+
+.red_flag_button {
+	color: #ff0000;
+	padding: 2px 2px;
+	font-size: 11px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	box-shadow: 0px 1px 1px #000;
+}
+
+.red_flag_button_propage {
+	margin-top: 0px;
+}
+	
+#summary_ownership_title {
+	float: left;
+}
+
+#summary_ownership_1stdiv {
+	clear: both;
 }
