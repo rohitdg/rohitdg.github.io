@@ -471,6 +471,9 @@ ol {
 	border-radius: 3px;
 }
 
+.transcard_manypeople {
+	height: 280px;
+}
 #trans_card_1 {
 	margin-top: 40px;
 }
@@ -488,6 +491,10 @@ ol {
 
 }
 
+#many_people {
+	height: 140px;
+}
+
 #people_bottom {
 	position: relative;
 	left: 25%;
@@ -497,12 +504,12 @@ ol {
 .arrow {
 	font-size: 28px;
 	position: relative;
-	left: 20%;
+	left: 22%;
 }
 
 .thirdboxarrow {
 	position: relative;
-	left: 50%;
+	left: 46%;
 	font-size: 28px;
 }
 .trans_box{
@@ -623,4 +630,15 @@ ol {
 
 #summary_ownership_1stdiv {
 	clear: both;
+}
+
+.list_headings{
+	font-weight: bold;
+	position: relative;
+	left: -20px;
+}
+
+.no_trans_div {
+	text-align: center;
+	padding-top: 40px;
 }
