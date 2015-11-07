@@ -20,7 +20,7 @@ body {
 
 #heading {
 	/*text-align: center;*/
-	height: 65px;
+	min-height: 65px;
 	margin-bottom: 5px;
 	border-bottom: 1px double #111111;
 }
@@ -31,7 +31,7 @@ body {
 	font-family: Helvetica;
 	font-weight: bold;
 	margin-bottom: 10px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Roboto', sans-serif;
 	/*font-family: 'Martel Sans', sans-serif;*/
 }
 
@@ -53,7 +53,7 @@ body {
 	}
 
 .image {
-	max-width: 300px;
+	width: 500px;
 	max-height: 300px;
 }
 
@@ -184,7 +184,15 @@ span {
 
 #top-panel-utilities {
 	margin-top: 100px;
+	min-height: 205px;
 }
+
+#top-panel-utilities-body {
+	min-height: 170px;
+	padding-bottom: 10px;
+	max-height: inherit;
+}
+
 
 .link_columns { 
 	width: 5px;
@@ -258,6 +266,7 @@ span {
 	height: 270px;
 	box-shadow: 0px 1px 2px #0e0e0e;
 	background-color: #fff;
+	margin-top: 10px;
 }
 
 #sections_list {
@@ -333,12 +342,14 @@ span {
 #ownership_div {
 	/*border: 2px solid #E4D946;*/
 	/*border-radius: 4px;*/
-	height: 350px;
+	min-height: 350px;
 	margin-bottom: 20px;
 	box-shadow: 0px 1px 2px #0e0e0e;
 	background-color: #fff;
 	padding-top: 1px;
 	margin-top: 10px;
+	/*overflow-y :scroll;*/
+	padding-bottom: 10px;
 }
 
 .ownership_div_boxes {
@@ -451,6 +462,10 @@ ol {
 	color: red;
 }
 
+.litigations_na {
+	color: orange;
+}
+
 #zone_type {
 	color: blue;
 }
@@ -463,20 +478,7 @@ ol {
 #tog-tabs {
 	margin-bottom: 50px;
 }
-.transaction_cards {
-	height: 200px;
-	box-shadow: 0px 0px 2px #0e0e0e;
-	background-color: #fff;
-	margin-top: 10px;
-	border-radius: 3px;
-}
 
-.transcard_manypeople {
-	height: 280px;
-}
-#trans_card_1 {
-	margin-top: 40px;
-}
 
 .people {
     width: 355px;
@@ -491,10 +493,6 @@ ol {
 
 }
 
-#many_people {
-	height: 140px;
-}
-
 #people_bottom {
 	position: relative;
 	left: 25%;
@@ -504,12 +502,12 @@ ol {
 .arrow {
 	font-size: 28px;
 	position: relative;
-	left: 22%;
+	left: 24%;
 }
 
 .thirdboxarrow {
 	position: relative;
-	left: 46%;
+	left: 50%;
 	font-size: 28px;
 }
 .trans_box{
@@ -528,23 +526,11 @@ ol {
  	top: -80px;
 }
 
-.left_box_ul {
-	list-style: none;
-	padding-left: 0px;
-	text-align: center;
-	margin-top: 8px;
-	font-size: 14px;
-}
 
 
-.left_box_ul li {
-	margin-bottom: 15px;
-}
 
-#left_box_ul_li_docsro {
-	margin-bottom: -2px;
-	font-size: 12px;
-}
+
+
 
 
 .people_icon {
@@ -555,6 +541,11 @@ ol {
 
 .people_text {
 	color: #fff;
+}
+
+.people_icon_bottom {
+	position: relative;
+    top: -100px;
 }
 
 
@@ -632,13 +623,153 @@ ol {
 	clear: both;
 }
 
-.list_headings{
-	font-weight: bold;
-	position: relative;
-	left: -20px;
+#chain_building_container {
+	margin-top: 30px;
 }
 
 .no_trans_div {
 	text-align: center;
 	padding-top: 40px;
+}
+
+.people_icon_pullup {
+	position: relative;
+	top: -100px;
+}
+
+
+#encumbrances_table {
+	background-color: #fff;
+	margin-right: 15px;
+}
+
+.encumbrances_table_titles {
+	font-size: 14px;
+}
+
+.encumbrances_outstanding_cell {
+	
+	max-width: 120px;
+}
+
+.encumbrances_outstanding {
+	background-color: #FF858E;
+}
+
+.EC_button {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+.encumbrances_table_dates {
+	min-width: 125px;
+}
+
+.responsive_tryouts {
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.responsive_tryouts_text {
+	/*font-size: 0.7pc;*/
+}
+
+
+.left_box_ul {
+		list-style: none;
+		padding-left: 0px;
+		text-align: left;
+		margin-top: 8px;	
+	}
+
+#trans_card_1 {
+		margin-top: 40px;
+	}
+
+@media (min-width: 300px) { 
+	.responsive_tryouts_text {
+		font-size: 8px;
+	}	
+
+	
+
+	.left_box_ul_li {
+		margin-bottom: 10px;
+	}
+
+	.transacting_parties {
+		min-height: 25px;
+		background-color: #9184FF;
+		text-align: center;
+		font-size: 10px;
+		padding-top: 7px;
+		color: #fff;
+	}
+
+	.transacting_parties_top {
+		position: relative;
+		top: -40px;
+	}
+	
+	.transacting_parties_bottom {
+		position: relative;
+		bottom: -60px;
+	}
+
+	.transaction_cards {
+		height: 150px;
+		box-shadow: 0px 0px 2px #0e0e0e;
+		background-color: #fff;
+		margin-top: 10px;
+		border-radius: 3px;
+	}
+
+	.unrelatedtoprevtransaction {
+		margin-top: 40px;
+	}
+}
+
+
+@media (min-width: 992px) { 
+	.responsive_tryouts_text {
+		font-size: 14px;
+	}	
+
+	.left_box_ul_li {
+		margin-bottom: 15px;
+	}
+
+	.transacting_parties {
+		min-height: 40px;
+		background-color: #9184FF;
+		text-align: center;
+		font-size: 14px;
+		padding-top: 10px;
+		color: #fff;
+	}
+
+	.transacting_parties_top {
+		position: relative;
+		top: -40px;
+	}
+	
+	.transacting_parties_bottom {
+		position: relative;
+		bottom: -100px;
+	}
+
+	.transaction_cards {
+		height: 200px;
+		box-shadow: 0px 0px 2px #0e0e0e;
+		background-color: #fff;
+		margin-top: 10px;
+		border-radius: 3px;
+	}
+
+	.unrelatedtoprevtransaction {
+		margin-top: 60px;
+	}
+
+	
 }

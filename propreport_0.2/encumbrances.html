@@ -18,6 +18,12 @@
     <link href='https://fonts.googleapis.com/css?family=Martel+Sans:400,200,300,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,500,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
+    </script>
   </head>
 
 	<body>
@@ -26,13 +32,107 @@
       <div class="col-sm-12" id="heading">
         <p id="title"> REX Report </p>
         
-        <p id="title_prop">Project Prince - Cyril Amarchand Mangaldas </p>
+        <p id="title_prop">Project Mogappair - Agarwals Eye Hospitals </p>
       </div>
 
       <div class="col-md-12">
       	<table class="table table-bordered" id="encumbrances_table">
 	      	<thead>
-	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 135, 136, 173 and 129</th>
+	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 330/ 1, 336/ 1Part, 334/ Part and 335/ Part</th>
+	      	</thead>
+	      	<thead>
+	      		<tr>
+	      			<th>#</th>
+			      	<th class="encumbrances_table_dates">From</th>
+			      	<th class="encumbrances_table_dates">To</th>
+			      	<th>EC Source</th>
+			      	<th>Number</th>
+			      	<th>Village</th>
+			      	<th>SRO</th>
+			      	<th>Charges</th>
+			      	<th>Link</th>
+	  			</tr>
+	  		</thead>
+	      	<tbody>
+
+	      		<tr>
+			      	<th scope="row">1</th>
+			      	<td class="encumbrances_table_dates">1987 - Jan - 01</td>
+			      	<td class="encumbrances_table_dates">1994 - Nov - 24</td>
+			      	<td>Online</td>
+			      	<td>N/A</td>
+			      	<td>Nolampoor</td>
+			      	<td>Ambattur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal1">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_105_94.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+
+		      	<tr>
+			      	<th scope="row">1</th>
+			      	<td>1994 - Nov - 25</td>
+			      	<td>2013 - Dec - 31</td>
+			      	<td>Manual</td>
+			      	<td>49</td>
+			      	<td>Nolambur</td>
+			      	<td>Konnur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal2">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_105.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+
+	     	</tbody>
+
+	     	<thead>
+	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 3/ Part, 330/ 1Part and 336/ 1Part</th>
 	      	</thead>
 	      	<thead>
 	      		<tr>
@@ -48,129 +148,86 @@
 	  			</tr>
 	  		</thead>
 	      	<tbody>
-		      	<tr>
-			      	<th scope="row">1</th>
-			      	<td>1966 - Jan - 1</td>
-			      	<td>1971 - Sep - 31</td>
-			      	<td>Manual</td>
-			      	<td>18631</td>
-			      	<td>Ambattur</td>
-			      	<td>Sembium</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-		      	<tr>
-			      	<th scope="row">2</th>
-			      	<td> 1971 - Oct - 01</td>
-			      	<td>1986 - Dec - 31</td>
-			      	<td>Manual</td>
-			      	<td>25187</td>
-			      	<td>Ambattur</td>
-			      	<td>Sembium</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-		      	<tr>
-			      	<th scope="row">3</th>
-			      	<td>1987 - Jan - 01</td>
-			      	<td>1994 - Nov - 24</td>
-			      	<td>Manual</td>
-			      	<td>14358</td>
-			      	<td>Ambattur</td>
-			      	<td>Ambattur</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-		      	<tr>
-			      	<th scope="row">4</th>
-			      	<td>1995 - Nov - 25</td>
-			      	<td>2004 - Aug - 25</td>
-			      	<td>Online</td>
-			      	<td>N/A</td>
-			      	<td>Ambattur</td>
-			      	<td>Ambattur</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-	     	</tbody>
 
-	     	<thead>
-	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 177, 176 and 129</th>
-	      	</thead>
-	      	<thead>
-	      		<tr>
-	      			<th>#</th>
-			      	<th>From</th>
-			      	<th>To</th>
-			      	<th>EC Source</th>
-			      	<th>Number</th>
-			      	<th>Village</th>
-			      	<th>SRO</th>
-			      	<th>Charges</th>
-			      	<th>Link</th>
-	  			</tr>
-	  		</thead>
-	      	<tbody>
+				<tr>
+			      	<th scope="row">1</th>
+			      	<td>1987 - Jan - 01</td>
+			      	<td>1994 - Nov - 25</td>
+			      	<td>Online</td>
+			      	<td>N/A</td>
+			      	<td>Nolampoor</td>
+			      	<td>Ambattur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal3">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_106_94.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+
 		      	<tr>
 			      	<th scope="row">1</th>
-			      	<td>1966 - Jan - 1</td>
-			      	<td>1971 - Sep - 31</td>
+			      	<td>1994 - Nov - 25</td>
+			      	<td>1971 - Dec - 31</td>
 			      	<td>Manual</td>
-			      	<td>18631</td>
-			      	<td>Ambattur</td>
-			      	<td>Sembium</td>
+			      	<td>50</td>
+			      	<td>Nolambur</td>
+			      	<td>Konnur</td>
 			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal4">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_106.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
 		      	</tr>
-		      	<tr>
-			      	<th scope="row">2</th>
-			      	<td> 1971 - Oct - 01</td>
-			      	<td>1986 - Dec - 31</td>
-			      	<td>Manual</td>
-			      	<td>25187</td>
-			      	<td>Ambattur</td>
-			      	<td>Sembium</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-		      	<tr>
-			      	<th scope="row">3</th>
-			      	<td>1987 - Jan - 01</td>
-			      	<td>1994 - Nov - 24</td>
-			      	<td>Manual</td>
-			      	<td>14358</td>
-			      	<td>Ambattur</td>
-			      	<td>Ambattur</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-		      	<tr>
-			      	<th scope="row">4</th>
-			      	<td>1995 - Nov - 25</td>
-			      	<td>2004 - Aug - 25</td>
-			      	<td>Online</td>
-			      	<td>N/A</td>
-			      	<td>Ambattur</td>
-			      	<td>Ambattur</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
-		      	<tr class="encumbrances_outstanding">
-			      	<th scope="row">5</th>
-			      	<td>2004 - Aug - 26</td>
-			      	<td>2012 - Nov - 24</td>
-			      	<td>Online</td>
-			      	<td>N/A</td>
-			      	<td>Ambattur</td>
-			      	<td>Ambattur</td>
-			      	<td class="encumbrances_outstanding_cell">Outstanding - Rs.24,56,200</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
-		      	</tr>
+		      	
 	     	</tbody>
 
 
 	     	<thead>
-	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 135, 136, 173, 177, 176 and 129</th>
+	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 330/Part, 336/Part, 334/Part, 335/Part and 3/Part</th>
 	      	</thead>
 	      	<thead>
 	      		<tr>
@@ -187,16 +244,42 @@
 	  		</thead>
 	      	<tbody>
 		      	
-		      	<tr>
+		      	<tr class="encumbrances_outstanding">
 			      	<th scope="row">1</th>
-			      	<td>2007 - Jan - 01</td>
-			      	<td>2015 - Oct - 24</td>
+			      	<td>2013 - Jan - 01</td>
+			      	<td>2015 - Sep - 09</td>
 			      	<td>Online</td>
 			      	<td>N/A</td>
 			      	<td>Ambattur</td>
 			      	<td>Ambattur</td>
-			      	<td>Nil</td>
-			      	<td><a href="" target="_blank"><span class="glyphicon glyphicon-link"> </span></a></td>
+			      	<td class="encumbrances_outstanding_cell">Borrowed - Rs.6,50,00,000</td>
+			      	<td>
+						
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal5">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_105&106.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
 		      	</tr>
 	     	</tbody>
      	</table>
