@@ -666,7 +666,7 @@ ol {
 	min-width: 125px;
 }
 
-.responsive_tryouts {
+.transcards_innerdivs {
 	margin-top: 20px;
 	padding: 0px;
 }
@@ -689,7 +689,7 @@ ol {
 
 @media (min-width: 300px) { 
 	.responsive_tryouts_text {
-		font-size: 8px;
+		font-size: 10px;
 		padding-left: 0px;
 	}	
 
@@ -706,6 +706,7 @@ ol {
 		font-size: 10px;
 		padding-top: 7px;
 		color: #fff;
+		z-index: 1;
 	}
 
 	.transacting_parties_top {
@@ -729,6 +730,18 @@ ol {
 	.unrelatedtoprevtransaction {
 		margin-top: 40px;
 	}
+
+	.relatedtoprevtransaction .transacting_parties_bottom  {
+		position: relative;
+		bottom: -120px;
+	}
+
+	.relatedtoprevtransaction  {
+		position: relative;
+		top: -10px;
+	}
+
+	
 }
 
 
@@ -748,6 +761,7 @@ ol {
 		font-size: 14px;
 		padding-top: 10px;
 		color: #fff;
+		z-index: 1;
 	}
 
 	.transacting_parties_top {
@@ -770,6 +784,16 @@ ol {
 
 	.unrelatedtoprevtransaction {
 		margin-top: 60px;
+	}
+
+	.relatedtoprevtransaction  {
+		position: relative;
+		top: -10px;
+	}
+
+	.relatedtoprevtransaction .transacting_parties_bottom  {
+		position: relative;
+		bottom: -160px;
 	}
 
 	
