@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Martel+Sans:400,200,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,500,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,20 +21,27 @@
     <![endif]-->
   </head>
   <body>
+    
     <div class="container">
 
       <div class="col-sm-12" id="heading">
-        <p id="title">REX Report</p>
-        
+        <p id="title">REX Report</p> 
         <p id="title_prop">Project Mogappair - Agarwals Eye Hospitals</p>
-      
       </div>
 
+
+      <!-- Whole page - toggling feature   -->
       <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
         <ul id="myTabs" class="nav nav-tabs" role="tablist">
+
+          <!-- Each li corresponds to a different {div - tabpanel} in myTabContent; href refers to the id of that div that needs to be opened when the link is clicked--> 
+
           <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Plot 105</a></li>
+
           <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Plot 106</a></li>
+
         </ul>
+
         <div id="myTabContent" class="tab-content">
 
           <!-- 105 -->
@@ -48,87 +50,94 @@
             <!-- Survey Numbers -->
             <div class="col-md-6">
               <div class="panel panel-info"  >
-              <!-- Default panel contents -->
-              <div class="panel-heading">Survey Numbers for the property <!-- <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
 
-              <div class="panel-body"></div>
+                <div class="panel-heading">Survey Numbers for the property <!-- <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
 
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <!-- <th class="link_columns"></th> -->
-                    <th>Deed</th>
-                    <!-- <th class="link_columns"></th> -->
-                    <th>Certified Copy</th>
-                    <!-- <th class="link_columns"></th> -->
-                    <th>EC</th>
-                    <!-- <th class="link_columns"></th> -->
-                    <th>Patta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td> 
-                      330/1 Part  
-                      <a  data-toggle="collapse" href="#surveynumbers_deed_105" aria-expanded="false" aria-controls="surveynumbers_deed_105">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                      <br> 336/1 Part <br> 334 Part <br> 335 Part 
-                    </td>
-                    <td> 
-                      330/1 
-                      <a  data-toggle="collapse" href="#surveynumbers_cc_105" aria-expanded="false" aria-controls="surveynumbers_cc_105">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                      <br> 336/1 Part <br> 334 Part <br> 335 Part <br>  
-                    </td>
-                    <td> 330/1 
-                      <a  data-toggle="collapse" href="#surveynumbers_ec_105" aria-expanded="false" aria-controls="surveynumbers_ec_105">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a> 
-                      <br> 336/1 Part <br> 334 Part <br> 335 Part <br> 336/1 Part 
-                    </td>
-                    <td> 330/1A2  
-                      <a  data-toggle="collapse" href="#surveynumbers_patta_105" aria-expanded="false" aria-controls="surveynumbers_patta_105">
-                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
-                      </a>
-                      <br> 334/1A2 <br> 335/1A2 <br> 336/1A1B 
-                    </td>
-                  </tr>
-                  <tr class = "collapse" id = "surveynumbers_deed_105"> 
-                    <td colspan=8>
-                      <!-- <object data="files/deed_105.pdf" type="application/pdf" >
-                        <embed data="files/deed_105.pdf" type="application/pdf" >
-                      </object> -->
+                <div class="panel-body"></div>
 
-                      <iframe src="files/deed_105.pdf" style="width:300px; height:500px;" frameborder="0"></iframe>
-                    </td> 
-                  </tr>
-                  
-                  <tr class = "collapse" id = "surveynumbers_cc_105"> 
-                    <td colspan=8>
-                      <object data="files/cc_4002.pdf" type="application/pdf">
-                        <embed data="files/cc_4002.pdf" type="application/pdf">
-                      </object>
-                    </td> 
-                  </tr>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Deed</th>
+                      <th>Certified Copy</th>
+                      <th>EC</th>
+                      <th>Patta</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> 
+                        <!-- Info in the deed -->
+                        330/1 Part  
+                          <!-- The link opens a dropdown containing the document. href refers to the id of tr element that contains the object that should be opened -->
+                        <a  data-toggle="collapse" href="#surveynumbers_deed_105" aria-expanded="false" aria-controls="surveynumbers_deed_105">
+                          <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
+                        </a> 
+                        <br> 336/1 Part <br> 334 Part <br> 335 Part 
+                      </td>
+                      <td> 
+                        <!-- Info in the certified copy -->
+                        330/1 
+                        <a  data-toggle="collapse" href="#surveynumbers_cc_105" aria-expanded="false" aria-controls="surveynumbers_cc_105">
+                          <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
+                        </a> 
+                        <br> 336/1 Part <br> 334 Part <br> 335 Part <br>  
+                      </td>
+                      <td> 330/1 
+                        <!-- Info in the EC -->
+                        <a  data-toggle="collapse" href="#surveynumbers_ec_105" aria-expanded="false" aria-controls="surveynumbers_ec_105">
+                          <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
+                        </a> 
+                        <br> 336/1 Part <br> 334 Part <br> 335 Part <br> 336/1 Part 
+                      </td>
+                      <td> 330/1A2  
+                        <!-- Info in the patta -->
+                        <a  data-toggle="collapse" href="#surveynumbers_patta_105" aria-expanded="false" aria-controls="surveynumbers_patta_105">
+                          <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
+                        </a>
+                        <br> 334/1A2 <br> 335/1A2 <br> 336/1A1B 
+                      </td>
+                    </tr>
 
-                  <tr class = "collapse" id = "surveynumbers_ec_105"> 
-                    <td colspan=8>
-                      <object data="files/EC_105.pdf" type="application/pdf">
-                      </object>
-                    </td> 
-                  </tr>
+                    <!-- contains the object to display the Deed -->
 
-                  <tr class = "collapse" id = "surveynumbers_patta_105"> 
-                    <td colspan=8>
-                      <object data="files/patta.pdf" type="application/pdf">
-                      </object>
-                    </td> 
-                  </tr>
-                </tbody>
-              </table>
+                    <tr class = "collapse" id = "surveynumbers_deed_105"> 
+                      <td colspan=8>
+                        <!-- <object data="files/deed_105.pdf" type="application/pdf" >
+                          <embed data="files/deed_105.pdf" type="application/pdf" >
+                        </object> -->
+
+                        <iframe src="files/deed_105.pdf" style="width:300px; height:500px;" frameborder="0"></iframe>
+                      </td> 
+                    </tr>
+                    
+                    <!-- contains the object to display the certified copy -->
+                    <tr class = "collapse" id = "surveynumbers_cc_105"> 
+                      <td colspan=8>
+                        <object data="files/cc_4002.pdf" type="application/pdf">
+                          <embed data="files/cc_4002.pdf" type="application/pdf">
+                        </object>
+                      </td> 
+                    </tr>
+
+                    <!-- contains the object to display the EC -->
+                    <tr class = "collapse" id = "surveynumbers_ec_105"> 
+                      <td colspan=8>
+                        <object data="files/EC_105.pdf" type="application/pdf">
+                        </object>
+                      </td> 
+                    </tr>
+
+                    <!-- contains the object to display the patta -->
+                    <tr class = "collapse" id = "surveynumbers_patta_105"> 
+                      <td colspan=8>
+                        <object data="files/patta.pdf" type="application/pdf">
+                        </object>
+                      </td> 
+                    </tr>
+
+                  </tbody>
+                </table>
               </div>  
             </div>
             
@@ -320,7 +329,7 @@
             <div class="col-md-6">
               <div class="panel panel-info" >
               <!-- Default panel contents -->
-                <div class="panel-heading">Owner Details <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><!-- <span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
+                <div class="panel-heading">Owner Details <!-- <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
                 <div class="panel-body">
                 </div>
 
@@ -405,6 +414,7 @@
               </div> 
             </div>
             
+
             <!-- Zoning  -->
             <div class="col-md-6" id="schedule_div">
               <div class="panel panel-warning" >
@@ -426,11 +436,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    
-
                     <tr>
-                      
-                      
                       <td> <span id="zone_type"> - </span>
                           <!-- <a  data-toggle="collapse" href="#area_deed_6" aria-expanded="false" aria-controls="area_deed_6">
                             <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
@@ -485,33 +491,30 @@
                         </object>
                       </td> 
                     </tr>
-
-                  
-                     
-                   
-
                   </tbody>
                 </table>
               </div>
             </div>
 
+
             <!-- Land Acquisition & Land Ceiling --> 
             <div class="col-md-3" >
               <div class="panel panel-warning" >
               <!-- Default panel contents -->
-                <div class="panel-heading">Acquisition & Ceiling <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><!-- <span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
+                <div class="panel-heading">Acquisition & Ceiling <!-- <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
                 <div class="panel-body">
                 </div>
 
                 <!-- Table -->
                 <table class="table">
+
                   <thead>
                     <tr>
                       <th>Acquisition</th>
                       <th>Ceiling</th>
-                      
                     </tr>
                   </thead>
+
                   <tbody>
                     <tr>
                       <td>
@@ -520,9 +523,7 @@
                       <td>
                         <a href=""><span id="litigations_clear"> - </span> </a>
                       </td>
-                     
                     </tr>
-                    
                   </tbody>
                 </table>
               </div>
@@ -541,20 +542,16 @@
 
               <div class="panel-body"></div>
 
-              <!-- Table -->
               <table class="table">
                 <thead>
                   <tr>
-                    <!-- <th class="link_columns"></th> -->
                     <th>Deed</th>
-                    <!-- <th class="link_columns"></th> -->
                     <th>Certified Copy</th>
-                    <!-- <th class="link_columns"></th> -->
                     <th>EC</th>
-                    <!-- <th class="link_columns"></th> -->
                     <th>Patta</th>
                   </tr>
                 </thead>
+
                 <tbody>
                   <tr>
                     <td> 
@@ -621,11 +618,10 @@
             <div class="col-md-6">
               <div class="panel panel-info" >
               <!-- Default panel contents -->
-                <div class="panel-heading">Area of the Property <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><!-- <span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
+                <div class="panel-heading">Area of the Property <!-- <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
                 <div class="panel-body">
                 </div>
 
-                <!-- Table -->
                 <table class="table">
                   <thead>
                     <tr>
@@ -707,7 +703,6 @@
               <div class="panel-body">
               </div>
 
-              <!-- Table -->
               <table class="table">
                 <thead>
                   <tr>
@@ -783,7 +778,6 @@
                 <div class="panel-body">
                 </div>
 
-                <!-- Table -->
                 <table class="table">
                   <thead>
                     <tr>
@@ -872,7 +866,6 @@
                 <div class="panel-body">
                 </div>
 
-                <!-- Table -->
                 <table class="table">
                   <thead>
                     <tr>
@@ -881,23 +874,14 @@
                       <th>Nanjai</th>
                       <th>Punjai</th>
                       <th>Manavari</th>
-                      
                     </tr>
                   </thead>
-                  <tbody>
-                    
 
+                  <tbody>
                     <tr>
+                      <td> <span id="zone_type"> - </span></td>
                       
-                      
-                      <td> <span id="zone_type"> - </span>
-                         
-                      </td>
-                      
-                      <td>
-                        <span id="litigations_clear"> - </span> 
-                       
-                      </td>
+                      <td><span id="litigations_clear"> - </span></td>
 
                       <td>
                         <span> 3982.65 Sq. Ft. </span> 
@@ -944,9 +928,6 @@
               <div class="panel panel-warning" >
               <!-- Default panel contents -->
                 <div class="panel-heading">Acquisition & Ceiling <button type="button" class="btn btn-default red_flag_button red_flag_button_propage"><!-- <span class="glyphicon glyphicon-flag" > </span> Flag it</button> --> </div>
-                <div class="panel-body">
-                </div>
-
                 <!-- Table -->
                 <table class="table">
                   <thead>
@@ -998,14 +979,9 @@
                 </table>
               </div>
             </div>
- 
           </div>
-          
         </div>
       </div>
-    
-           
-        
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

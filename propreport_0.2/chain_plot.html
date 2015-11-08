@@ -11,10 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Martel+Sans:400,200,300,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,500,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -38,7 +34,7 @@
         <p id="title_prop">Project Mogappair - Agarwals Eye Hospitals </p>
       </div>
 
-      
+      <!-- Togglable tabs in the page -->
       <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs" >
         <ul id="myTabs" class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a href="#105" id="105-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Plot 105</a></li>
@@ -52,10 +48,10 @@
           <div role="tabpanel" class="tab-pane fade active in" id="105" aria-labelledby="105-tab">
             <div class="col-md-12" id="tog-tabs">
 
-               <!-- 1st box - reponsivenes tryouts -->
+              <!-- 1st box -  has a special id -->
               <div class="col-md-8 col-md-offset-2 transaction_cards" id="trans_card_1">
-              
-
+                
+                <!-- left side box that contains date, type of transactiona and document details -->
                 <div class="col-xs-3 transcards_innerdivs">
                   <ul class="left_box_ul">
                     <li class="responsive_tryouts_text  left_box_ul_li "><span class="glyphicon glyphicon-calendar"></span>1993/Jan/08 </li>
@@ -64,19 +60,22 @@
                     <li  class="responsive_tryouts_text"  >SRO : N/A</li>
                   </ul>
                 </div>
-
+                
                 <div class="col-xs-6 ">
 
+                  <!-- contains the details of the trasferor(seller) ; _top puts the div at teh top of the card -->
                   <div class="col-xs-12 transcards_innerdivs transacting_parties transacting_parties_top">
                     <i class="fa fa-university "></i> <span>Tamilnadu Housing Board</span>
                   </div>
 
+                  <!-- contains the details of the transferee(buyer) ; _bottom puts the div at the bottom of the card -->
                   <div class="col-xs-12 transcards_innerdivs transacting_parties transacting_parties_bottom">
                     <i class="fa fa-male  " ></i> <span >Mr.P.Venthan </span>  
                   </div>
 
                 </div>
 
+                <!-- right side div that checks for the document in deed and EC  -->
                 <div class="col-xs-3 transcards_innerdivs">
                   <div class="table_responsive">
                     <table class="table">
@@ -84,13 +83,10 @@
                         <tr>
                           <th>Deed</th>
                           <th>EC</th>
-                          
                         </tr>
                       </thead>
                       <tbody>
-                        
                         <tr>
-                          
                           <td>
                             <span id="litigations_clear"> <span class="glyphicon glyphicon-ok" aria-hidden="true"> </span>   </span>
                           </td>
@@ -100,14 +96,15 @@
                           </td>
 
                         </tr>
-
                       </tbody>
                     </table>
                   </div>
                 </div>
               </div>
 
-              <!-- 2nd box - reponsivenes tryouts -->
+
+
+              <!-- 2nd box : If it is unrelated to the previous transaction use class : unrelatedtoprevioustransaction -->
               <div class="col-md-8 col-md-offset-2 transaction_cards unrelatedtoprevtransaction" >
               
 
@@ -163,7 +160,7 @@
               </div>
 
 
-              <!-- 3rd box - reponsivenes tryouts -->
+              <!-- 3rd box - If it is related to the previous transaction use class : relatedtoprevioustransaction -->
               <div class="col-md-8 col-md-offset-2 transaction_cards relatedtoprevtransaction" >
                 <div class="col-xs-3 transcards_innerdivs">
                   <ul class="left_box_ul">
@@ -195,6 +192,7 @@
                         
                         <tr>
                           
+                          <!-- if the fact is present glyphicon-ok -->
                           <td>
                             <span id="litigations_clear"> <span class="glyphicon glyphicon-ok" aria-hidden="true"> </span>   </span>
                           </td>
