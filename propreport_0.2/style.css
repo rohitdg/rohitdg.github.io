@@ -187,12 +187,6 @@ span {
 	min-height: 205px;
 }
 
-#top-panel-utilities-body {
-	min-height: 170px;
-	padding-bottom: 10px;
-	max-height: inherit;
-}
-
 
 .link_columns { 
 	width: 5px;
@@ -746,6 +740,15 @@ ol {
 		height: 400px;
 	}
 
+	#panel_body_buildingreport {
+		height: 600px;
+	}
+
+	#top-panel-utilities-body {
+		height: 250px;
+	}
+
+
 	
 }
 
@@ -806,5 +809,17 @@ ol {
 		height: 500px;
 	}
 
+
+	#panel_body_buildingreport {
+		height: 155px;
+	}
+
+	#top-panel-utilities-body {
+		height: 155px;
+	}
+
+
 	
 }
+
+
