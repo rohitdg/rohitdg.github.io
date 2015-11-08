@@ -689,7 +689,7 @@ ol {
 
 @media (min-width: 300px) { 
 	.responsive_tryouts_text {
-		font-size: 10px;
+		font-size: 9px;
 		padding-left: 0px;
 	}	
 
@@ -720,7 +720,7 @@ ol {
 	}
 
 	.transaction_cards {
-		height: 150px;
+		min-height: 150px;
 		box-shadow: 0px 0px 2px #0e0e0e;
 		background-color: #fff;
 		margin-top: 10px;
@@ -739,6 +739,11 @@ ol {
 	.relatedtoprevtransaction  {
 		position: relative;
 		top: -10px;
+	}
+
+	object {
+		width: 300px;
+		height: 400px;
 	}
 
 	
@@ -794,6 +799,11 @@ ol {
 	.relatedtoprevtransaction .transacting_parties_bottom  {
 		position: relative;
 		bottom: -160px;
+	}
+
+	object {
+		width: 500px;
+		height: 500px;
 	}
 
 	
