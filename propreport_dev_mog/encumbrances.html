@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Property Report</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
+    </script>
+  </head>
+
+	<body>
+    <div class="container">
+
+      <div class="col-sm-12" id="heading">
+        <p id="title"> REX Report </p>
+        
+        <p id="title_prop">Project Mogappair - Agarwals Eye Hospitals </p>
+      </div>
+
+      <div class="col-md-12">
+      	<table class="table table-bordered" id="encumbrances_table">
+	      	<thead>
+	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 330/ 1, 336/ 1Part, 334/ Part and 335/ Part</th>
+	      	</thead>
+	      	<thead>
+	      		<tr>
+	      			<th>#</th>
+			      	<th class="encumbrances_table_dates">From</th>
+			      	<th class="encumbrances_table_dates">To</th>
+			      	<th>EC Source</th>
+			      	<th>Number</th>
+			      	<th>Village</th>
+			      	<th>SRO</th>
+			      	<th>Charges</th>
+			      	<th>Link</th>
+	  			</tr>
+	  		</thead>
+	      	<tbody>
+
+	      		<tr>
+			      	<th scope="row">1</th>
+			      	<td class="encumbrances_table_dates">1987 - Jan - 01</td>
+			      	<td class="encumbrances_table_dates">1994 - Nov - 24</td>
+			      	<td>Online</td>
+			      	<td>N/A</td>
+			      	<td>Nolampoor</td>
+			      	<td>Ambattur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button to trigger the modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal1">
+						  EC
+						</button>
+
+						<!-- Modal for the button defined above -->
+						<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_105_94.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+
+		      	<tr>
+			      	<th scope="row">1</th>
+			      	<td>1994 - Nov - 25</td>
+			      	<td>2013 - Dec - 31</td>
+			      	<td>Manual</td>
+			      	<td>49</td>
+			      	<td>Nolambur</td>
+			      	<td>Konnur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal2">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_105.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+
+	     	</tbody>
+
+	     	<thead>
+	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 3/ Part, 330/ 1Part and 336/ 1Part</th>
+	      	</thead>
+	      	<thead>
+	      		<tr>
+	      			<th>#</th>
+			      	<th>From</th>
+			      	<th>To</th>
+			      	<th>EC Source</th>
+			      	<th>Number</th>
+			      	<th>Village</th>
+			      	<th>SRO</th>
+			      	<th>Charges</th>
+			      	<th>Link</th>
+	  			</tr>
+	  		</thead>
+	      	<tbody>
+
+				<tr>
+			      	<th scope="row">1</th>
+			      	<td>1987 - Jan - 01</td>
+			      	<td>1994 - Nov - 25</td>
+			      	<td>Online</td>
+			      	<td>N/A</td>
+			      	<td>Nolampoor</td>
+			      	<td>Ambattur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal3">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_106_94.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+
+		      	<tr>
+			      	<th scope="row">1</th>
+			      	<td>1994 - Nov - 25</td>
+			      	<td>1971 - Dec - 31</td>
+			      	<td>Manual</td>
+			      	<td>50</td>
+			      	<td>Nolambur</td>
+			      	<td>Konnur</td>
+			      	<td>Nil</td>
+			      	<td>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal4">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_106.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+		      	
+	     	</tbody>
+
+
+	     	<thead>
+	      		<th colspan="9" class="encumbrances_table_titles">Survey Numbers : 330/Part, 336/Part, 334/Part, 335/Part and 3/Part</th>
+	      	</thead>
+	      	<thead>
+	      		<tr>
+	      			<th>#</th>
+			      	<th>From</th>
+			      	<th>To</th>
+			      	<th>EC Source</th>
+			      	<th>Number</th>
+			      	<th>Village</th>
+			      	<th>SRO</th>
+			      	<th>Charges</th>
+			      	<th>Link</th>
+	  			</tr>
+	  		</thead>
+	      	<tbody>
+		      	
+		      	<tr class="encumbrances_outstanding">
+			      	<th scope="row">1</th>
+			      	<td>2013 - Jan - 01</td>
+			      	<td>2015 - Sep - 09</td>
+			      	<td>Online</td>
+			      	<td>N/A</td>
+			      	<td>Ambattur</td>
+			      	<td>Ambattur</td>
+			      	<td class="encumbrances_outstanding_cell">Borrowed - Rs.6,50,00,000</td>
+			      	<td>
+						
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg EC_button"  data-toggle="modal" data-target="#myModal5">
+						  EC
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Encumbrance Certificate</h4>
+						      </div>
+						      <div class="modal-body">
+							      <object data="files/EC_105&106.pdf" type="application/pdf" width="550px" height="500px">
+							      	
+							      </object>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			      	</td>
+		      	</tr>
+	     	</tbody>
+     	</table>
+	
+      </div>
+     	
+	
+	
+      
+    </div>
+
+  </body>
+
+</html>

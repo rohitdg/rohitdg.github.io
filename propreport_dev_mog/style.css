@@ -1,0 +1,858 @@
+.container {
+	margin-top: 2px;
+	padding-top: 4px;
+}
+
+body {
+	font-family: Helvetica;
+	background-color: #f1f1f1; 
+	background-image: url("images/brickwall.png");
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Abel', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+
+
+
+#heading {
+	/*text-align: center;*/
+	min-height: 65px;
+	margin-bottom: 5px;
+	border-bottom: 1px double #111111;
+}
+
+
+#title {
+	font-size: 22px;
+	font-family: Helvetica;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Martel Sans', sans-serif;*/
+}
+
+#title_prop {
+	font-size: 14px;
+}
+#details_container {
+	/*background-color: #efefef;*/
+	border: 1px double #a1a1a1;
+	height: 235px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+}
+
+	#map_box {
+/*		border: 1px solid red;
+*/		height: 100%;
+	}
+
+.image {
+	width: 500px;
+	max-height: 300px;
+}
+
+	#docs_compare_box {
+		margin-top: 25px;
+	}
+		.bs-example {
+			border: 1px solid #ddd;
+		}
+			.table {
+				margin-bottom: 0px;
+			}
+	
+				.matching {
+					color: green;
+				}
+
+				.not-matching {
+					color: red;
+				}
+span {
+	margin-right: 3px;
+}
+	.glyphicon-ok {
+		color: green;
+	}
+
+	.glyphicon-remove {
+		color: red;
+	}
+
+	/*.glyphicon-link {
+		margin-left: 40px;
+	}*/
+
+	#owner_box {
+		height: 100%;
+	}
+
+
+
+
+#other_prop_details_container {
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+	.other_details_box {
+		height: inherit;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.other_details_box_inner {
+		height: inherit;
+		border: 1px solid #e1e1e1;
+		text-align: center;
+		padding-top: 5px;
+
+	}
+
+	.details_box_title {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: bold; 
+	}
+
+		.glyphicon-thumbs-up {
+			font-size: 26px;
+			display: inline-block;
+			color: green;
+		}
+
+		.glyphicon-thumbs-down {
+			font-size: 26px;
+			display: inline-block;
+			color: red;
+		}
+
+		.glyphicon-ban-circle {
+			font-size: 26px;
+			display: inline-block;
+			color: blue;
+		}
+
+		.details_box_text {
+			font-size: 12px;
+			font-weight: normal;
+			text-align: center;
+			display: inline-block;
+			position: relative;
+    		top: -7px;
+    		margin-bottom: 0px;
+		}
+
+		.bill_link {
+			display: inline-block;
+			float: left;
+			margin-top: 10px;
+			position: relative;
+			left: -5px;
+			color: #808080
+
+		}
+
+		.bill_text {
+			margin-top: 10px;
+			font-size: 12px;
+			/*position: relative;
+			left: -38px;*/
+			color: #808080;
+			text-align: left;
+			display: inline;
+		}
+
+
+#top-panel {
+	margin-top: 20px;
+}
+
+#top-panel-details {
+	margin-top: 100px;
+}
+
+#panel-utilities {
+	margin-top: 20px;
+}
+
+#top-panel-utilities {
+	margin-top: 100px;
+	min-height: 205px;
+}
+
+
+.link_columns { 
+	width: 5px;
+}
+
+.details_link {
+	position: relative;
+	left: 40px;
+}
+
+.panel-heading {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.bs-example{
+	border: none;
+}
+
+.amenities_bills {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+
+#documents_list_box {
+	/*order: 2px solid #E4D946;
+	border-radius: 4px;*/
+	height: 630px;
+	margin-bottom: 20px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+
+}
+
+.list_group {
+	margin-top: 10px;
+}
+
+#documents_list_title {
+	font-size: 12px;
+	font-weight: bold;
+	/*margin-left: 10px;*/
+}
+
+#documents_list {
+	font-size: 12px;
+	line-height: 25px;
+	height: 580px;
+	overflow: scroll;
+}
+
+#index_property_list {
+	list-style: none;
+}
+
+#property_list_box {
+	/*border: 2px solid #E4D946;*/
+	/*border-radius: 4px;*/
+	height: 630px;
+	margin-bottom: 0px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	/*background-image: url("images/binding_dark.png");*/
+}
+
+#sections_in {
+	/*border: 2px solid #E4D946;*/
+	/*border-radius: 4px;*/
+	height: 270px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+#sections_list {
+	margin-top: 10px;
+}
+
+
+.chain_body {
+	height: 150px;
+	margin-bottom: 10px;
+
+}
+
+.chain_owner_box {
+	border: 1px solid #a1a2a3;
+	height: 150px;
+	clear: left;
+}
+
+.chain_transaction_box {
+	/*border: 1px solid #a1a2a3;
+	height: 150px;*/
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #000;
+	margin: auto;
+}
+.arrow-tail {
+	width: 10px;
+	height: 60px;
+	background-color: #000;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.chain_table {
+	font-size: 11px;
+}
+
+.table>tbody>tr>td {
+	padding-left: 8px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+
+
+}
+
+.panel {
+	min-height: 43px;
+}
+.panel_title_from {
+	display: inline;
+}
+.panel_title_to {
+	float: right;
+}
+
+
+.chain_box_title {
+	text-align: center;
+
+}
+.chain_box_title_text{
+	font-size: 14px;
+}
+
+#ownership_div {
+	/*border: 2px solid #E4D946;*/
+	/*border-radius: 4px;*/
+	min-height: 350px;
+	margin-bottom: 20px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	padding-top: 1px;
+	margin-top: 10px;
+	/*overflow-y :scroll;*/
+	padding-bottom: 10px;
+}
+
+.ownership_div_boxes {
+	border: 1.5px solid #A4D1FF;
+	border-radius: 2px;
+	height: 135px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.ownership_box_title {
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+.ownership_div {
+	padding-left: 5px;
+}
+.ownership_div_title {
+	font-weight: bold;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.owner_box_lists {
+	list-style: none;
+	margin-left: none;
+	padding-left: 0px;
+	text-align: left;
+	margin-left: 15px;
+}
+
+.owner_box_listitems {
+
+}
+
+/*
+#red_flags_box {
+	height: 270px;
+	box-shadow: 0px 1px 2px #0e0e0e;
+	background-color: #fff;
+	padding-left: 10px;
+}*/
+
+#redflags_count {
+	color: red;
+}
+
+#redflags_list {
+	list-style: none;
+	padding-left: 20px;
+	/*margin-left: 0px;*/
+
+}
+
+#redflags_list li {
+	margin-bottom: 10px;	
+	display: inline;
+	position: relative;
+    top: -6px;
+}
+
+.success {
+	border: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+}
+
+ol {
+	padding-left: 25px;
+}
+
+#flag_icon {
+	color: red; 
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 5px;
+}
+
+#ec_icon {
+	color: #00A9FF; 
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 5px;
+	position: relative;
+	left: -2px
+}
+
+#litigations_icon {
+	color: #A5A5A5;
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 5px;
+}
+
+.tab-pane {
+	margin-top: 15px;
+}
+
+#schedule_div {
+	clear: left;
+	
+}
+
+#litigations_clear {
+	color: green;
+}
+#litigations_pending {
+	color: red;
+}
+
+.litigations_na {
+	color: orange;
+}
+
+#zone_type {
+	color: blue;
+}
+
+
+
+/*Ownership chain*/
+
+
+#tog-tabs {
+	margin-bottom: 50px;
+}
+
+
+.people {
+    width: 355px;
+    height: 85px;
+    background-color: #9184FF;
+    position: relative;
+    left: 25%;
+    top: -48px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#people_bottom {
+	position: relative;
+	left: 25%;
+	top: 58px;
+}
+
+.arrow {
+	font-size: 28px;
+	position: relative;
+	left: 24%;
+}
+
+.thirdboxarrow {
+	position: relative;
+	left: 50%;
+	font-size: 28px;
+}
+.trans_box{
+	height: 130px;
+	/*border: 2px solid #4a512c;*/
+	
+}
+
+.box_left {
+	position: relative;
+ 	top: -50px;
+}
+
+.box_right {
+ 	position: relative;
+ 	top: -80px;
+}
+
+
+
+
+
+
+
+
+.people_icon {
+	font-size: 24px !important;
+	/*color: #fff;*/
+	color: #fff;
+}
+
+.people_text {
+	color: #fff;
+}
+
+.people_icon_bottom {
+	position: relative;
+    top: -100px;
+}
+
+
+.splitcard {
+	margin-top: 120px;
+}
+.bottom_box_content {
+	position: relative;
+	top: -100px
+}
+
+#boxesinthirdrow_left {
+	position: relative;
+	top: -150px;
+}
+
+#boxesinthirdrow_right {
+	position: relative;
+	top: -170px;
+}
+
+#red_flags_div {
+	margin-top: 30px;	
+}
+
+#red_flags_list {
+
+}
+
+#red_flags_div_title {
+	font-size: 14px;
+	color: red;
+}
+
+.view_redflag_icon {
+
+}
+
+#encumbrances_table {
+	background-color: #fff;
+}
+
+.encumbrances_table_titles {
+	font-size: 14px;
+}
+
+.encumbrances_outstanding_cell {
+	
+	max-width: 40px;
+}
+
+.encumbrances_outstanding {
+	background-color: #FF858E;
+}
+
+.red_flag_button {
+	color: #ff0000;
+	padding: 2px 2px;
+	font-size: 11px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	box-shadow: 0px 1px 1px #000;
+}
+
+.red_flag_button_propage {
+	margin-top: 0px;
+}
+	
+#summary_ownership_title {
+	float: left;
+}
+
+#summary_ownership_1stdiv {
+	clear: both;
+}
+
+#chain_building_container {
+	margin-top: 30px;
+}
+
+.no_trans_div {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.people_icon_pullup {
+	position: relative;
+	top: -100px;
+}
+
+
+#encumbrances_table {
+	background-color: #fff;
+	margin-right: 15px;
+}
+
+.encumbrances_table_titles {
+	font-size: 14px;
+}
+
+.encumbrances_outstanding_cell {
+	
+	max-width: 120px;
+}
+
+.encumbrances_outstanding {
+	background-color: #FF858E;
+}
+
+.EC_button {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+.encumbrances_table_dates {
+	min-width: 125px;
+}
+
+.transcards_innerdivs {
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.responsive_tryouts_text {
+	/*font-size: 0.7pc;*/
+}
+
+
+.left_box_ul {
+		list-style: none;
+		padding-left: 0px;
+		text-align: left;
+		margin-top: 8px;	
+	}
+
+#trans_card_1 {
+		margin-top: 40px;
+	}
+
+@media (min-width: 300px) { 
+	.responsive_tryouts_text {
+		font-size: 9px;
+		padding-left: 0px;
+	}	
+
+	
+
+	.left_box_ul_li {
+		margin-bottom: 10px;
+	}
+
+	.transacting_parties {
+		min-height: 25px;
+		background-color: #9184FF;
+		text-align: center;
+		font-size: 10px;
+		padding-top: 7px;
+		color: #fff;
+		z-index: 1;
+	}
+
+	.transacting_parties_top {
+		position: relative;
+		top: -40px;
+	}
+	
+	.transacting_parties_bottom {
+		position: relative;
+		bottom: -60px;
+	}
+
+	.transaction_cards {
+		min-height: 150px;
+		box-shadow: 0px 0px 2px #0e0e0e;
+		background-color: #fff;
+		margin-top: 10px;
+		border-radius: 3px;
+	}
+
+	.unrelatedtoprevtransaction {
+		margin-top: 40px;
+	}
+
+	.relatedtoprevtransaction .transacting_parties_bottom  {
+		position: relative;
+		bottom: -120px;
+	}
+
+	.relatedtoprevtransaction  {
+		position: relative;
+		top: -10px;
+	}
+
+	object {
+		width: 300px;
+		height: 400px;
+	}
+
+	#panel_body_buildingreport {
+		height: 600px;
+	}
+
+	#top-panel-utilities-body {
+		height: 250px;
+	}
+
+
+	
+}
+
+
+@media (min-width: 992px) { 
+	.responsive_tryouts_text {
+		font-size: 14px;
+	}	
+
+	.left_box_ul_li {
+		margin-bottom: 15px;
+	}
+
+	.transacting_parties {
+		min-height: 40px;
+		background-color: #9184FF;
+		text-align: center;
+		font-size: 14px;
+		padding-top: 10px;
+		color: #fff;
+		z-index: 1;
+	}
+
+	.transacting_parties_top {
+		position: relative;
+		top: -40px;
+	}
+	
+	.transacting_parties_bottom {
+		position: relative;
+		bottom: -100px;
+	}
+
+	.transaction_cards {
+		height: 200px;
+		box-shadow: 0px 0px 2px #0e0e0e;
+		background-color: #fff;
+		margin-top: 10px;
+		border-radius: 3px;
+	}
+
+	.unrelatedtoprevtransaction {
+		margin-top: 60px;
+	}
+
+	.relatedtoprevtransaction  {
+		position: relative;
+		top: -10px;
+	}
+
+	.relatedtoprevtransaction .transacting_parties_bottom  {
+		position: relative;
+		bottom: -160px;
+	}
+
+	object {
+		width: 500px;
+		height: 500px;
+	}
+
+
+	#panel_body_buildingreport {
+		height: 155px;
+	}
+
+	#top-panel-utilities-body {
+		height: 155px;
+	}
+
+	.dev_cards {
+		min-height: 180px;
+		background-color: #fff;
+		border: 1px solid #eee;
+		padding-bottom: 40px;
+		margin-top: 20px;
+	}
+
+	.date_tag {
+		height: 30px;
+		width: 110px;
+		background-color: #123aed;
+		margin-top: 10px;
+		position: relative;
+		left: -90px;
+		top: -10px;
+		padding-top: 9px;
+		padding-left: 5px;
+		color: #fff;
+	}
+
+	.date_tag_date {
+		color: #fff;
+		font-size: 12px;
+		
+	}
+
+	.dev_cards #trans_card_1 {
+		margin-top: 50px;
+	}
+
+	.devolution_calendar {
+		color: #fff;
+	}
+	
+}
+
+

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Property Report</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="container">
+
+      
+      <div class="col-sm-12" id="heading">
+        <p id="title"> REX Report </p>
+        
+        <p id="title_prop">Project Mogappair - Agarwals Eye Hospitals </p>
+      </div>
+      
+      <!-- Left side Property Desciption Div -->
+      <div class="col-sm-3" >
+
+          <div class="col-sm-12" id="property_list_box">
+           
+            <h5 class="ownership_div_title">Property</h5>
+            <table class="table table-condensed">
+              <thead>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <th scope="row">Type of Land</th>
+                  <td>:</td>
+                  <td>Plots</td>
+                </tr>
+                
+                <tr class="success">
+                  <th scope="row">Type of Building</th>
+                  <td>:</td>
+                  <td>Commercial</td>
+                </tr>
+                
+                <tr class="success">
+                  <th scope="row">Extent of Building</th>
+                  <td>:</td>
+                  <td>Floor</td>
+                </tr>
+
+                <!-- Empty row to give space between rows -->
+                <tr > 
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+                <tr class="info">
+                  <th scope="row">Plot Size</th>
+                  <td>:</td>
+                  <td >11932 Sq. Ft.</td>
+                </tr>
+
+
+                <tr class="info">
+                  <th scope="row">Floor - Built up Area</th>
+                  <td>:</td>
+                  <td >6500 Sq.Ft.</td>
+                </tr>
+                
+                <tr class="info">
+                  <th scope="row">Floor - Carpet Area</th>
+                  <td>:</td>
+                  <td >5425 Sq.Ft.</td>
+                </tr>
+                
+                <!-- Empty row to give space between rows -->
+                <tr >  
+                  <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+
+                <tr  class="warning">
+                  <th scope="row">Floor No.</th>
+                  <td>:</td>
+                  <td >1</td>
+                </tr>
+          
+                <tr  class="warning">
+                  <th scope="row">Name of the Building</th>
+                  <td>:</td>
+                  <td >RAAJ Towers</td>
+                </tr>
+
+                <tr class="warning">
+                  <th scope="row">Plot No.</th>
+                  <td>:</td>
+                  <td >105 & 106</td>
+                </tr>
+                <tr  class="warning">
+                  <th scope="row">Street Name</th>
+                  <td>:</td>
+                  <td >Nolambur Main Road</td>
+                </tr>
+                <tr class="warning">
+                  <th scope="row">Area</th>
+                  <td>:</td>
+                  <td >Mogappair West</td>
+                </tr>
+                <tr class="warning" >
+                  <th scope="row">City</th>
+                  <td>:</td>
+                  <td >Chennai - 600037</td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            
+          </div>
+      </div>
+
+      <!-- Center Div - holds 3 sections of the page -->
+      <div class="col-sm-6">
+
+        <div class="col-sm-6" id="sections_in">
+         
+          <h5 class="ownership_div_title">Sections </h5>
+            
+          <ol id="sections_list">
+
+            <li>Property Report for
+              <ol>
+                <li><a href="report_building.html" target="_blank">Building</a> </li>
+                <li><a href="report_plot.html" target="_blank">Land </a> </li>
+              </ol>
+            </li>
+            
+            
+            <li> Ownership Chain for
+              <ol>
+                <li><a href="chain_floor.html" target="_blank"> Floor</a> </li>
+                <li><a href="chain_building.html" target="_blank"> Building</a> </li>
+                <li><a href="chain_plot.html" target="_blank"> Land </a> </li>  
+              </ol>
+            </li>
+
+            <li><a href="report_utilities.html" target="_blank">Utilities Report</a> </li>
+
+          </ol>
+        </div>
+
+        <div class="col-sm-6" id="sections_in">
+        
+          <h5 class="ownership_div_title">Checks</h5>
+
+          <!-- Red Flag button -->
+          <!-- <button type="button" class="btn btn-default red_flag_button"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> -->
+
+          <ol id="redflags_list">
+            <a href="redflags.html" target="_blank">
+              <span class="glyphicon glyphicon-flag" id="flag_icon"> </span> <li > Red Flags : <span id="redflags_count">3</span></li>
+            </a>
+
+            <br>
+            <br>
+            <a href="encumbrances.html" target="_blank">
+              <span class="glyphicon glyphicon-usd" id="ec_icon"> </span> <li>  Encumbrance Records</li>
+            </a>
+            <br>
+            <br>
+            <a href="litigations.html" target="_blank">
+              <span class="glyphicon glyphicon-ban-circle" id="litigations_icon"> </span> <li>Litigations </li>
+            </a>
+          </ol>
+
+        </div>
+
+
+        <div class="col-sm-12" id ="ownership_div">
+          
+          <h5 class="ownership_div_title" id = "summary_ownership_title">Current Ownership Details</h5>
+          
+          <!-- <button type="button" class="btn btn-default red_flag_button"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> -->
+          <div class="col-sm-6 " id="summary_ownership_1stdiv">
+            <div class="ownership_div_boxes">
+              <h5 class="ownership_box_title">Seller</h5>
+
+              <ul class="owner_box_lists">
+                <li class="owner_box_listitems">Mrs. Rajeswari. M</li>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="col-sm-6">
+            <div class="ownership_div_boxes">
+              <h5 class="ownership_box_title">Owner</h5>
+              
+              <ul class="owner_box_lists">
+                <li class="owner_box_listitems">Mrs. Rajeswari. M</li>
+                
+              </ul> 
+            </div>
+          </div>
+          <div class="col-sm-6 ">
+            <div class="ownership_div_boxes">
+              <h5 class="ownership_box_title">Possession</h5>
+              
+              <ul class="owner_box_lists">
+                <li class="owner_box_listitems">Currently Unoccupied</li>
+              </ul> 
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="ownership_div_boxes">
+              <h5 class="ownership_box_title">Original Titles with :</h5>
+              
+              <ul class="owner_box_lists">
+                <li class="owner_box_listitems">Indian Overseas Bank</li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+        
+      <div class="col-sm-3" >
+        <div class="col-sm-12" id="documents_list_box">
+          <h5 class="ownership_div_title">Documents Used : 13</h5>
+          <!-- <button type="button" class="btn btn-default red_flag_button"><span class="glyphicon glyphicon-flag" > </span> Flag it</button> -->
+          <ol class="list_group" id="documents_list">
+            <li>Gift Deed, Document No. 4001 dated 12 - Dec - 2001</li>
+            <li>Gift Deed, Document No. 4002 dated 12 - Dec - 2001</li>
+            <li>Receipt of payment of fees to CMDA</li>
+            <li>Planning Permit, 18 - Dec - 2012, Permit No. 7759</li>
+            <li>Building Permit, 28 - Dec - 2012, No. Ka.Ma.No.887/08/F</li>
+            <li>Completion Certificate, 26 - Feb - 2012, C.C. No. EC/North/106/2015</li>
+            <li>CMDA Advice copy dated 25 - ep - 2012</li>
+            <li>Patta bearing No. 1917 </li>
+           
+            <li>Property tax demand card</li>
+            <li>Electricity meter card</li>
+            
+            <li>Encumberance Certificates
+              <ol>
+                <li>Plot No.105</li>
+                <li>Plot No.106</li>
+                <li>Plot No. 105 & 106</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+      </div>   
+    </div>
+  </body>
+</html>

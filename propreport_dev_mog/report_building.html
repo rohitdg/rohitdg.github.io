@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Property Report</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="col-sm-12" id="heading">
+        <p id="title">REX Report</p>
+        <p id="title_prop">Project Mogappair - Agarwals Eye Hospitals</p>
+
+      </div>
+      
+      <div class="panel panel-info" id = "top-panel-details" >
+        <div class="panel-heading"> Building Details</div>
+          <table class="table table-bordered">
+            <thead>
+              
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Building - Floors</th>
+                <td> Main : Basement + Ground  + 3 floors  </td>
+                
+                
+              </tr>
+              <tr>
+                <th scope="row">Building Area</th>
+                <td>Total Built Up Area : 11932 Sq.Ft. <br> Built up Floor Area : 6500 Sq.Ft. <br> Built Up Floor - Carpet Area : 5425 Sq.Ft.</td>
+               
+                
+              </tr>
+              
+            </tbody>
+          </table>
+         
+      </div>
+
+      <div class="panel panel-info" id = "panel-utilities">
+        <!-- Default panel contents -->
+          <div class="panel-heading">  Approvals/Permits/Licences</div>
+          <div class="panel-body" id="panel_body_buildingreport">
+            <div class="col-sm-12" id="other_prop_details_container">
+              
+              <!-- prop_tax -->
+              <div class="col-sm-2  other_details_box">
+                <div class = "other_details_box_inner">
+                  <p class="details_box_title">Property Tax</p>
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> </span> <p class="details_box_text">Paid till March - 2016</p>
+                  <br>
+                  <a  data-toggle="collapse" href="#property_tax" aria-expanded="false" aria-controls="property_tax">
+                    <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span>
+                    <p class="bill_text">Latest Bill</p>
+                  </a>
+                </div>  
+              </div>
+
+              <!-- planning permit -->
+              <div class="col-sm-2 other_details_box">
+                <div class = "other_details_box_inner">
+                  <p class="details_box_title">Planning Permit</p>
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> </span> 
+                  <p class="details_box_text">Approved</p>
+                  <br>
+                  <a  data-toggle="collapse" href="#planning_permit" aria-expanded="false" aria-controls="planning_permit">
+                    <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span> 
+                    <p class="bill_text">Approval Copy</p>
+                  </a>
+                </div>  
+              </div>
+
+
+              <!-- building permit -->
+              <div class="col-sm-2 other_details_box">
+                <div class = "other_details_box_inner">
+                  <p class="details_box_title">Building Permit</p>
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> </span> 
+                  <p class="details_box_text">Obtained</p>
+                  <br>
+                  <a  data-toggle="collapse" href="#building_permission" aria-expanded="false" aria-controls="building_permission">
+                    <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span> 
+                    <p class="bill_text">Certificate Copy</p>
+                  </a>
+                </div>  
+              </div>
+
+              <!-- CMDA receipts -->
+              <div class="col-sm-2 other_details_box">
+                <div class = "other_details_box_inner">
+                  <p class="details_box_title">CMDA Receipt</p>
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> </span> 
+                  <p class="details_box_text">Obtained</p>
+                  <br>
+                  <a  data-toggle="collapse" href="#CMDA_receipt" aria-expanded="false" aria-controls="CMDA_receipt">
+                    <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span> 
+                    <p class="bill_text">Certificate Copy</p>
+                  </a>
+                </div>  
+              </div>
+
+              <!-- Completion_certificate -->
+              <div class="col-sm-2 other_details_box">
+                <div class = "other_details_box_inner">
+                  <p class="details_box_title">Completion Certificate</p>
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> </span> 
+                  <p class="details_box_text">Available</p> 
+                  <br>
+                  <a  data-toggle="collapse" href="#cc" aria-expanded="false" aria-controls="cc">
+                    <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"> </span> 
+                    <p class="bill_text">Certificate Copy</p>
+                  </a>
+                </div>  
+              </div>
+
+            </div> 
+           <div class="col-md-12 collapse amenities_bills" id="property_tax">
+              <object data="files/property tax.pdf" type="application/pdf" width="800px" height="600px">
+              The corresponding file will show up here
+              </object>
+            </div>
+
+            <div class="col-md-12 collapse amenities_bills" id="planning_permit">
+              <object data="files/planning permit.pdf" type="application/pdf" width="800px" height="600px">
+              The corresponding file will show up here
+              </object>
+            </div>
+
+            <div class="col-md-12 collapse amenities_bills" id="building_permission">
+              <object data="files/building permit.pdf" type="application/pdf" width="800px" height="600px">
+              The corresponding file will show up here
+              </object>
+            </div>
+
+            <div class="col-md-12 collapse amenities_bills" id="CMDA_receipt">
+              <object data="files/CMDA receipt.pdf" type="application/pdf" width="800px" height="600px">
+              The corresponding file will show up here
+              </object>
+            </div>
+
+            <div class="col-md-12 collapse amenities_bills" id="cc">
+              <object data="files/cc.pdf" type="application/pdf" width="800px" height="600px">
+              The corresponding file will show up here
+              </object>
+            </div>    
+          </div>  
+      </div>
+
+      
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
