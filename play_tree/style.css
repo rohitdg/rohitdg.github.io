@@ -1,0 +1,16 @@
+.from {
+	background-color: #dedede;
+	color: blue;
+	margin-left: 10px;
+	padding-right: 10px !IMPORTANT; 
+	margin-right: 10px;
+}
+
+.to {
+	background-color: blue;
+	color: #dedede;
+	margin-left: 10px;
+	padding-right: 10px !IMPORTANT;
+	margin-right: 10px;
+
+}
