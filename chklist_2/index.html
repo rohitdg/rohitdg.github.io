@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Checklist Generator</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <script src="script.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+
+    <div class="container-fluid" id="body-container">
+
+      <header id="header">
+        <div class="col-md-6" id="header-text-div">
+          <h4 id="header-text">Maatrum</h4> 
+        </div>
+      </header>
+
+      <section class="col-md-8 col-md-offset-2 main_section" id="question_section_box1">
+        <section class="col-md-12 section_box">
+          <h3 class = "question">Where is your property located?</h3>
+
+          <ul>
+            <li class="questions_options"><input type="radio" name="optionsRadios1" class="radios radio_set1" id="optionsRadios1_1" > Chennai</li>
+            <li class="questions_options"><input type="radio" name="optionsRadios1" class="radios radio_set1" id="optionsRadios1_2" > Outside Chennai</li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="col-md-8 col-md-offset-2 main_section" id="question_section_box2">
+        <section class="col-md-12 section_box">
+          <h3 class = "question">Is it just land or land with a building? </h3>
+
+          <ul>
+            <li class="questions_options"><input type="radio" name="optionsRadios1" class="radios radio_set2" id="optionsRadios2_1" > Land</li>
+            <li class="questions_options"><input type="radio" name="optionsRadios1" class="radios radio_set2" id="optionsRadios2_2" > Land with Building</li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="col-md-8 col-md-offset-2 main_section" id="question_section_box3">
+        <section class="col-md-12 section_box">
+          <h3 class = "question"> Building Details </h3>
+
+          <ul>
+            <li class="questions_options"><input type="radio" name="optionsRadios1" class="radios radio_set3" id="optionsRadios3_1" > Under Construction</li>
+            <li class="questions_options"><input type="radio" name="optionsRadios1" class="radios radio_set3" id="optionsRadios3_2" > Constructed</li>
+            <li class="questions_options"><input type="checkbox" name="optionsRadios1" class="radios radio_set3" id="optionsRadios3_3" > Joint development</li>
+            <li class="questions_options"><input type="checkbox" name="optionsRadios1" class="radios radio_set3" id="optionsRadios3_4" > Apartment</li>
+          </ul>
+        </section>
+      </section>
+
+
+      <section class="col-md-8 col-md-offset-2 main_section" id="main_section_2">
+        <section class="col-md-12 section_box" id="section_box_2">
+          <h3 class = "question">Documents Required</h3>
+
+          <ol class="documents_list">
+            
+          </ol>
+        </section>
+      </section>
+
+    </div>
+  </body>
+</html>
