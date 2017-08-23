@@ -1,0 +1,201 @@
+* {
+	font-family: 'Josefin Sans', serif;
+}
+header {
+	height: 50px;
+
+}
+
+#logo_header {
+	max-height: 25px;
+	width: auto; 
+	margin-top: 12.5px;
+	display: inline;
+}
+
+#header-menu {
+	display: inline;
+	list-style: none;
+	width: auto;
+	margin-top: 5px;
+}
+
+.header_items, #catalog_text {
+	display: inline;
+}
+
+.btn {
+	border-radius: 0px;
+
+}
+.header_menu_btns {
+	width: 90px;
+	height: 38px;
+}
+
+
+#catalog_text {
+	margin-right: 10px;
+	border-bottom: 2px solid #454545;
+
+}
+#login_btn {
+	border: 1px solid #de855d;
+	color: #de855d;
+	background-color: #fff
+	
+}
+
+#signup_btn {
+	background-color: #de855d;
+	color: #fff;
+}
+
+#top-section {
+	height: 200px;
+	background: url("http://universal-legal.com/wp-content/uploads/2016/06/Abstract-Backgrounds-Textures-l.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.ts_content_box {
+	position: relative;
+	top: 40px;
+	left: 6em;
+	color: #fff;
+}
+
+#upgrade_btn {
+	background-color: #de855d;
+	color: #fff;
+	height: 38px;
+	position: relative;
+	top: 81px;
+	left: 550px;
+}
+
+#options-section {
+	height: 70px;
+}
+
+#course_selection_list {
+	list-style: none;
+	position: relative;
+	bottom: -40px;
+	left: 60px;
+}
+
+.course_options {
+	display: inline;
+	margin-right: 25px;
+	color: #575757;
+}
+
+#all_courses {
+	color: #21465e;
+	font-weight: bold;
+	border-bottom: 2px solid #21465e;
+}
+
+#boxes-section {
+	height: auto;
+	overflow: scroll;
+	background-color: #e9eaea;
+	padding-top: 20px;
+}
+#box_holder {
+	position: relative;
+	left: 3em;
+	margin-bottom: 30px;
+}
+.check {
+	height: 440px;
+}
+
+.course_box {
+	height: 420px;
+	margin: auto;
+	width: 80%;
+	background-color: #fff ;
+}
+
+.course_box2 {
+	position: relative;
+	left: -50px
+}
+
+.course_box3 {
+	position: relative;
+	left: -100px
+}
+
+.course_box_image_box {
+	width: 100%;
+	height: 40%;
+	background-color: #8a1b1b;
+	padding-top: 40px;
+	background: -webkit-linear-gradient(left center, red, yellow);
+}
+.course_box_text_box {
+	width: 100%;
+	height: 60%;
+	padding: 18px;
+	font-family: 'Josefin Sans' !important;
+	color: #21465e
+
+}
+
+#test {
+	width: 100%;
+	height: 100%;
+	border: 1px solid blue;
+}
+
+.icon_holder {
+	height: 75px;
+	width: 65px;
+	margin: auto;
+
+
+}
+
+i {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+#desktop_responsive_icon {
+	position: relative;
+	top: 10px;
+	left: -10px;
+}
+
+#mobile_responsive_icon {
+	position: relative;
+	top: -50px;
+	left: 70px;
+}
+
+.course_box_text_box_title {
+	font-size: 22px;
+	font-weight: 600;
+	color: #a13f3e
+	
+}
+
+.course_box_text_box_content_box {
+	height: 120px;
+	width: 100%;
+	color: #575757;
+}
+
+.course_box_text_box_hours {
+	position: relative;
+	top: 50px;
+	color: #a13f3e;
+	font-weight: 800;
+}
+
+
+
